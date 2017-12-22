@@ -42,7 +42,7 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			
 			<!-- zone de recherche rajoutée -->
-			<div class="srch clearfix" style="text-align: center; position: absolute; left: 45%; top: 17%;">
+			<div class="srch clearfix" style="text-align: center; position: absolute; left: 80%; top: 10%;">
 				<form method="GET" action="<?php echo get_site_url(); ?>">
 					<div class="container cbd"><input max-length="120" autocomplete="off" placeholder="mot clé" value="<?php the_search_query(); ?>" name="s" id="q"> <button type="submit" title="Rechercher sur le site"> <i class="fa fa-search"></i> </button></div>
 				</form>

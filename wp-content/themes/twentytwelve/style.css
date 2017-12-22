@@ -1844,11 +1844,11 @@ img#wpstats {
     margin:13px 0 10px
 }
 .srch form .container input{
-    background:#006699;  /* #1A1A1A */
+    background:#56CBEF;  /* #006699 #1A1A1A arrière plan en bleu */
     border:0 none;
     border-bottom:2px solid transparent;
     box-sizing:border-box;
-    color:#0000; /* #fff */
+    color:#df3741; /* #fff le text du champ en blanc*/
     display:inline-block;
     font-size:1em;
     font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1868,14 +1868,14 @@ img#wpstats {
     transition:all .5s
 }
 .srch form:hover .container input, .srch form.selected .container input{
-    border-color:#df3741;
+    border-color:#df3741; /* #df3741 rouge de bordure */
     opacity:1;
     width:244px
 }
 .srch form .container button{
     background-color:transparent !important;
     border:medium none;
-    color:#0000; /* #fff */
+    color:#000; /* #fff la couleur de l'image en noir  */
     cursor:pointer;
     display:inline-block;
     font-size:1.3em;
@@ -1889,7 +1889,7 @@ img#wpstats {
     z-index:101
 }
 .srch form:hover .container button, .srch form.selected .container button{
-    color:#DF3741
+    color:#DF3741 /* #DF3741  la couleur de l'image en rouge */
 }
 .srch form .container button i{
     background-color:transparent;
@@ -1912,5 +1912,5 @@ img#wpstats {
 }
 @media only screen and (max-width:1023px){.srch form{margin:0}
     .srch form .container{margin:13px 0 10px}
-    .srch form .container button{color:#fff}
+    .srch form .container button{color:#000} /* #000 */
 }
