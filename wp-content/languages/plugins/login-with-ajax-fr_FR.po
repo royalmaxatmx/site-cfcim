@@ -1,0 +1,362 @@
+# Translation of Plugins - Login With Ajax - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Login With Ajax - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-08 12:31:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Login With Ajax - Stable (latest release)\n"
+
+#: login-with-ajax-widget.php:74 login-with-ajax-widget.php:82
+msgid "Show direct link"
+msgstr "Afficher le lien direct"
+
+#: login-with-ajax-widget.php:72 login-with-ajax-widget.php:80
+msgid "No Link"
+msgstr "Aucun lien"
+
+#: login-with-ajax-widget.php:73 login-with-ajax-widget.php:81
+msgid "Show link with AJAX form"
+msgstr "Afficher le lien avec le formulaire AJAX"
+
+#: login-with-ajax-widget.php:70
+msgid "Show Recover Password?"
+msgstr "Afficher la récupération du mot de passe ?"
+
+#. Tags of the plugin/theme
+msgid "Login, Ajax, Redirect, BuddyPress, MU, WPMU, sidebar, admin, widget"
+msgstr "Connexion, Ajax, Redirection, BuddyPress, MU, WPMU, barre latérale, admin, widget"
+
+#. Author URI of the plugin/theme
+msgid "http://msyk.es"
+msgstr "http://msyk.es"
+
+#. Author of the plugin/theme
+msgid "Marcus Sykes"
+msgstr "Marcus Sykes"
+
+#. Description of the plugin/theme
+msgid "Ajax driven login widget. Customisable from within your template folder, and advanced settings from the admin area."
+msgstr "Widget de connexion basé sur Ajax. Personnalisable depuis votre dossier de modèle, et les réglages avancés de votre zone d’administration."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/login-with-ajax/"
+msgstr "http://wordpress.org/extend/plugins/login-with-ajax/"
+
+#. Plugin Name of the plugin/theme
+msgid "Login With Ajax"
+msgstr "Login With Ajax"
+
+#: widget/default/widget_out.php:94 widget/divs-only/widget_out.php:70
+#: widget/modal/widget_out.php:106
+msgid "E-mail"
+msgstr "E-mail"
+
+#: widget/default/widget_out.php:85 widget/divs-only/widget_out.php:78
+#: widget/modal/widget_out.php:121
+msgid "A password will be e-mailed to you."
+msgstr "Votre mot de passe vous sera envoyé."
+
+#: widget/default/widget_out.php:84 widget/divs-only/widget_out.php:64
+#: widget/modal/widget_out.php:92
+msgid "Register For This Site"
+msgstr "S'enregistrer sur ce site"
+
+#: widget/default/widget_out.php:74 widget/divs-only/widget_out.php:56
+#: widget/divs-only/widget_out.php:80 widget/modal/widget_out.php:78
+#: widget/modal/widget_out.php:123
+msgid "Cancel"
+msgstr "Annuler"
+
+#: widget/default/widget_out.php:73 widget/divs-only/widget_out.php:55
+#: widget/modal/widget_out.php:77
+msgid "Get New Password"
+msgstr "Obtenir un nouveau mot de passe"
+
+#: widget/default/widget_out.php:66 widget/divs-only/widget_out.php:50
+#: widget/modal/widget_out.php:69
+msgid "Enter username or email"
+msgstr "Entrez votre identifiant ou votre email"
+
+#: widget/default/widget_out.php:61 widget/divs-only/widget_out.php:48
+#: widget/modal/widget_out.php:63
+msgid "Forgotten Password"
+msgstr "Mot de passe oublié"
+
+#: widget/default/widget_out.php:47 widget/default/widget_out.php:100
+#: widget/divs-only/widget_out.php:42 widget/divs-only/widget_out.php:79
+#: widget/modal/widget_out.php:51 widget/modal/widget_out.php:122
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: widget/default/widget_out.php:43 widget/divs-only/widget_out.php:38
+#: widget/modal/widget_out.php:47
+msgid "Lost your password?"
+msgstr "Mot de passe oublié ?"
+
+#: widget/default/widget_out.php:43 widget/divs-only/widget_out.php:38
+#: widget/modal/widget_out.php:47
+msgid "Password Lost and Found"
+msgstr "Mot de passe retrouvé"
+
+#: widget/default/widget_out.php:40 widget/divs-only/widget_out.php:35
+#: widget/modal/widget_out.php:44
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: widget/default/widget_out.php:23 widget/divs-only/widget_out.php:17
+#: widget/modal/widget_out.php:27
+msgid "Password"
+msgstr "Mot de passe"
+
+#: widget/default/widget_out.php:15 widget/default/widget_out.php:90
+#: widget/divs-only/widget_out.php:12 widget/divs-only/widget_out.php:66
+#: widget/modal/widget_out.php:19 widget/modal/widget_out.php:98
+msgid "Username"
+msgstr "Identifiant"
+
+#: widget/default/widget_in.php:39
+msgid "blog admin"
+msgstr "Administration du blog"
+
+#: widget/default/widget_in.php:34
+msgid "Log Out"
+msgstr "Déconnexion"
+
+#: widget/default/widget_in.php:24 widget/default/widget_in.php:28
+msgid "Profile"
+msgstr "Profil"
+
+#: pluggable.php:73
+msgid "[%s] Your username and password info"
+msgstr "[%s] Votre identifiant et votre mot de passe"
+
+#: pluggable.php:68
+msgid "To set your password, visit the following address:"
+msgstr "Pour configurer votre mot de passe, rendez-vous à l'adresse suivante :"
+
+#: pluggable.php:39
+msgid "[%s] New User Registration"
+msgstr "[%s] Nouvel utilisateur enregistré."
+
+#: pluggable.php:37
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: pluggable.php:36 pluggable.php:67
+msgid "Username: %s"
+msgstr "Identifiant: %s"
+
+#: pluggable.php:35
+msgid "New user registration on your site %s:"
+msgstr "Inscription d'un nouvel utilisateur sur votre site %s :"
+
+#: login-with-ajax.php:241
+msgid "We have sent you an email"
+msgstr "Nous vous avons envoyé un email"
+
+#: login-with-ajax.php:223
+msgid "Registration has been disabled."
+msgstr "Les inscriptions ont été désactivées."
+
+#: login-with-ajax.php:210
+msgid "Registration complete. Please check your e-mail."
+msgstr "Enregistrement terminé. Veuillez vérifier vos mails."
+
+#: login-with-ajax.php:192
+msgid "Please supply your username and password."
+msgstr "Veuillez renseigner vos identifiants et mots de passe."
+
+#: login-with-ajax.php:188 login-with-ajax.php:250
+msgid "An undefined error has ocurred"
+msgstr "Une erreur indéfinie s'est produite"
+
+#: login-with-ajax.php:178
+msgid "Login successful, updating..."
+msgstr "Connexion réussie..."
+
+#: login-with-ajax.php:165
+msgid "Login Successful, redirecting..."
+msgstr "Connexion réussie, redirection en cours...."
+
+#: login-with-ajax-widget.php:92
+msgid "Show profile link?"
+msgstr "Montrer le lien vers le profil ?"
+
+#: login-with-ajax-widget.php:85 login-with-ajax-widget.php:87
+msgid "Logged Out"
+msgstr "Déconnecté"
+
+#: login-with-ajax-widget.php:78
+msgid "AJAX Registration?"
+msgstr "Inscription en Ajax ?"
+
+#: login-with-ajax-widget.php:66 login-with-ajax-widget.php:87
+msgid "Title (%s)"
+msgstr "Titre (%s)"
+
+#: login-with-ajax-widget.php:64 login-with-ajax-widget.php:66
+msgid "Logged In"
+msgstr "Connecté"
+
+#: login-with-ajax-widget.php:56
+msgid "Template"
+msgstr "Modèle"
+
+#: login-with-ajax-widget.php:15
+msgid "Login widget with AJAX capabilities."
+msgstr "Widget de connexion avec des possibilités AJAX."
+
+#: login-with-ajax-widget.php:9 widget/default/widget_in.php:12
+msgid "Hi"
+msgstr "Bonjour"
+
+#: login-with-ajax-widget.php:8 widget/default/widget_out.php:32
+#: widget/divs-only/widget_out.php:26 widget/modal/widget_out.php:9
+#: widget/modal/widget_out.php:36
+msgid "Log In"
+msgstr "Connexion"
+
+#: login-with-ajax-admin.php:398
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+#: login-with-ajax-admin.php:352
+msgid "Message"
+msgstr "Message"
+
+#: login-with-ajax-admin.php:347 login-with-ajax-admin.php:390
+msgid "<code>%BLOGURL%</code> will be replaced with the url of your blog."
+msgstr "<code>%BLOGURL%</code> sera remplacé par l'URL de votre blog."
+
+#: login-with-ajax-admin.php:346 login-with-ajax-admin.php:389
+msgid "<code>%BLOGNAME%</code> will be replaced with the name of your blog."
+msgstr "<code>%BLOGNAME%</code> sera remplacé par le nom de votre blog."
+
+#: login-with-ajax-admin.php:344 login-with-ajax-admin.php:387
+msgid "<code>%PASSWORD%</code> will be replaced with the user's password."
+msgstr "<code>%PASSWORD%</code> sera remplacé par son mot de passe."
+
+#: login-with-ajax-admin.php:342 login-with-ajax-admin.php:385
+msgid "%s will be replaced with a link to set the user password."
+msgstr "%s seront remplacés par un lien pour définir le mot de passe utilisateur."
+
+#: login-with-ajax-admin.php:340 login-with-ajax-admin.php:383
+msgid "<code>%USERNAME%</code> will be replaced with a username."
+msgstr "<code>%USERNAME%</code> sera remplacé par le nom d'utilisateur."
+
+#: login-with-ajax-admin.php:336
+msgid "Your registration at %BLOGNAME%"
+msgstr "Votre inscription sur %BLOGNAME%"
+
+#: login-with-ajax-admin.php:331
+msgid "Subject"
+msgstr "Sujet"
+
+#: login-with-ajax-admin.php:323
+msgid "Override Default Email?"
+msgstr "Remplacer le mail par défaut ?"
+
+#: login-with-ajax-admin.php:318
+msgid "If this feature doesn't work, please make sure that you don't have another plugin installed which also manages user registrations (e.g. BuddyPress and MU)."
+msgstr "Si cette fonctionnalité ne fonctionne pas, assurez-vous de ne pas avoir d'autres extensions installées qui s'occupent également d'inscriptions d'utilisateurs (comme BuddyPress ou MU)."
+
+#: login-with-ajax-admin.php:317
+msgid "If you'd like to override the default Wordpress email users receive once registered, make sure you check the box below and enter a new email subject and message."
+msgstr "Si vous voulez remplacer l'adresse de messagerie Wordpress que les utilisateurs recevoir une fois enregistrés, cochez la case ci-dessous et entrez un nouveau sujet et message."
+
+#: login-with-ajax-admin.php:315
+msgid "Notification Settings"
+msgstr "Paramètres de notification"
+
+#: login-with-ajax-admin.php:292
+msgid "If you would like a specific user role to be redirected to a custom URL upon logout, place it here (blank value will default to the global redirect)"
+msgstr "Si vous souhaitez envoyer les utilisateurs avec un certain rôle vers une URL spécifique après la déconnexion, entrez l'url ici (laisser vide pour utiliser la redirection globale)"
+
+#: login-with-ajax-admin.php:289
+msgid "Role-Based Custom Logout Redirects"
+msgstr "Redirections Spécifiques selon le rôle de l'utilisateur après la déconnexion"
+
+#: login-with-ajax-admin.php:239
+msgid "If you would like a specific user role to be redirected to a custom URL upon login, place it here (blank value will default to the global redirect)"
+msgstr "Si vous souhaitez envoyer les utilisateurs avec un certain rôle vers une URL spécifique après la connexion, entrez l'url ici (laisser vide pour utiliser la redirection globale)"
+
+#: login-with-ajax-admin.php:236
+msgid "Role-Based Custom Login Redirects"
+msgstr "Redirections Spécifiques selon le rôle de l'utilisateur après la connexion"
+
+#: login-with-ajax-admin.php:228
+msgid "Enter %LASTURL% to send the user back to the page they were previously on."
+msgstr "Entrez %LASTURL% pour renvoyer l'utilisateur sur la page où il était."
+
+#: login-with-ajax-admin.php:227
+msgid "If you'd like to send the user to a specific URL after logout, enter it here (e.g. http://wordpress.org/)"
+msgstr "Si vous souhaitez envoyer l'utilisateur vers une URL spécifique après la déconnexion, entrez l'url ici (ex : http://wordpress.org/)"
+
+#: login-with-ajax-admin.php:223
+msgid "Global Logout Redirect"
+msgstr "Redirection Globale à la déconnexion"
+
+#: login-with-ajax-admin.php:212 login-with-ajax-admin.php:264
+msgid "With WPML enabled you can provide different redirection destinations based on language too."
+msgstr "Avec WPML activé, vous pouvez appliquer des destinations de redirections basé sur la langue."
+
+#: login-with-ajax-admin.php:190
+msgid "Use %USERNAME% and it will be replaced with the username of person logging in."
+msgstr "Utilisez %USERNAME% et cela sera remplacé  par le nom de la personne se connectant."
+
+#: login-with-ajax-admin.php:189
+msgid "If you'd like to send the user to a specific URL after login, enter it here (e.g. http://wordpress.org/)"
+msgstr "Si vous souhaitez envoyer l'utilisateur vers une URL spécifique après la connexion, entrez l'url ici (ex : http://wordpress.org/)"
+
+#: login-with-ajax-admin.php:185
+msgid "Global Login Redirect"
+msgstr "Redirection Globale à la connexion"
+
+#: login-with-ajax-admin.php:181
+msgid "Redirection Settings"
+msgstr "Paramètres de Redirection"
+
+#: login-with-ajax-admin.php:175
+msgid "If the user logs in and you check the button above, only the login widget will update itself without refreshing the page. Not a good idea if your site shows different content to users once logged in, as a refresh would be needed."
+msgstr "Si l'utilisateur se connecte et la case ci-dessus est cochée, seul le formulaire de login sur la page serra actualisé sans aucun autre changement à la page. Ce n'est pas une bonne idée si votre site affiche un contenu différent selon que le visiteur est connecté ou non dans ce cas une actualisation complète de la pgae est nécessaire."
+
+#: login-with-ajax-admin.php:170
+msgid "Disable refresh upon login?"
+msgstr "Désactiver le rafraichissement de la page après la connection?"
+
+#: login-with-ajax-admin.php:164
+msgid "Further documentation for this feature coming soon..."
+msgstr "De la documentation supplémentaire pour cette fonctionnalité sont à prévoir bientôt."
+
+#: login-with-ajax-admin.php:163
+msgid "Choose the default theme you'd like to use. This can be overriden in the widget, shortcode and template tags."
+msgstr "Choisissez le theme par défaut que vous souhaitez utiliser. Ceci peut être remplacé par les widgets, shortcode ou template."
+
+#: login-with-ajax-admin.php:154
+msgid "Default Template"
+msgstr "Modèle par défaut"
+
+#: login-with-ajax-admin.php:149
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: login-with-ajax-admin.php:107
+msgid "Changes saved."
+msgstr "Changements sauvegardés."
+
+#: login-with-ajax-admin.php:50
+msgid "Dismiss"
+msgstr "Désactiver"
+
+#: login-with-ajax-admin.php:48
+msgid "Check your registration email template."
+msgstr "Vérifiez votre inscription modèle de courriel."
+
+#: login-with-ajax-admin.php:47
+msgid "Since WordPress 4.3 passwords are not emailed to users anymore, they're replaced with a link to create a new password."
+msgstr "Depuis WordPress 4.3 mots de passe ne sont pas envoyés par courrier électronique aux utilisateurs plus, ils sont remplacés par un lien pour créer un nouveau mot de passe."

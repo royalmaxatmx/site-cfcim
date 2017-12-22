@@ -1,0 +1,275 @@
+.buwd-job-container {
+    height: auto;
+    overflow: hidden;
+}
+
+#tab-general span {
+    background: url("../images/general_icon.png") no-repeat;
+}
+
+#tab-schedule span {
+    background: url("../images/schedule_icon.png") no-repeat;
+}
+
+#tab-type-db span {
+    background: url("../images/db_icon.png") no-repeat;
+}
+
+#tab-type-files span {
+    background: url("../images/files_icon.png") no-repeat;
+}
+
+#tab-destination-folder span {
+    background: url("../images/folder_icon.png") no-repeat;
+}
+
+#tab-destination-dropbox span {
+    background: url("../images/dropbox_icon.png") no-repeat;
+}
+
+#tab-destination-gdrive span {
+    background: url("../images/gdrive_icon.png") no-repeat;
+}
+
+#tab-destination-amazon-s3 span {
+    background: url("../images/amazon_s3_icon.png") no-repeat;
+}
+
+#tab-destination-amazon-glacier span {
+    background: url("../images/amazon_glacier_icon.png") no-repeat;
+}
+
+#tab-destination-lotus-cloud span {
+    background: url("../images/wd_storage_icon.png") no-repeat;
+}
+
+#tab-destination-ftp span {
+    background: url("../images/ftp_icon.png") no-repeat;
+}
+
+.job-destination[disabled="disabled"] + label > span {
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+    cursor: not-allowed;
+}
+
+.job-destination[disabled="disabled"],
+.job-destination[disabled="disabled"] + label,
+.archive-format[disabled="disabled"],
+.archive-format[disabled="disabled"] + label{
+    cursor: not-allowed;
+}
+
+#tab-destination-sugarsync span {
+    background: url("../images/sugarsync_icon.png") no-repeat;
+}
+
+#tab-destination-azure span {
+    background: url("../images/azure_icon.png") no-repeat;
+}
+
+#tab-destination-rsc span {
+    background: url("../images/rsc_icon.png") no-repeat;
+}
+
+.type-db-logo {
+    background: url("../images/db.png") no-repeat;
+}
+
+.destination-folder-logo {
+    background: url("../images/folder.png") no-repeat;
+}
+
+.destination-ftp-logo {
+    background: url("../images/ftp.png") no-repeat;
+}
+
+.destination-gdrive-logo {
+    background: url("../images/gdrive.png") no-repeat;
+}
+
+.destination-dropbox-logo {
+    background: url("../images/dropbox.png") no-repeat;
+}
+
+.destination-amazon-s3-logo {
+    background: url("../images/amazon_s3.png") no-repeat;
+}
+
+.destination-amazon-glacier-logo {
+    background: url("../images/amazon_glacier.png") no-repeat;
+}
+
+.destination-lotus-cloud-logo {
+    background: url("../images/wd_storage.png") no-repeat;
+}
+
+.destination-sugarsync-logo {
+    background: url("../images/sugarsync.png") no-repeat;
+}
+
+.destination-rsc-logo {
+    background: url("../images/rsc.png") no-repeat;
+}
+
+.destination-azure-logo {
+    background: url("../images/azure.png") no-repeat;
+}
+
+/*.job-type {
+  margin-left: 10px !important;
+}*/
+
+.type-files-logo {
+    background: url("../images/files.png") no-repeat;
+}
+
+.tr-destination .buwd-column > div,
+.tr-type .buwd-column > div {
+    width: 90%;
+}
+
+.buwd-column > div {
+    margin-bottom: 4px;
+}
+
+.buwd-filename-preview {
+    font-size: 15px;
+    color: #4b5c73;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.buwd-filename-preview-text {
+    font-size: 14px;
+    color: #4b5c73;
+    padding: 4px;
+    font-weight: normal;
+}
+
+.buwd-filename-replacement {
+    background: #ffffff;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.buwd-filename-replacement a {
+    display: block;
+    padding: 8px;
+    color: #4b5c73 !important;
+    border-bottom: 1px solid #E7EDF2;
+    font-size: 14px;
+}
+
+.buwd-filename-replacement a:hover {
+    background: #EDEEF0;
+}
+
+#option-schedule .buwd-columns {
+    width: 60%;
+}
+
+.bup_choices + label, .bup_choices {
+    position: relative;
+    left: 20px;
+}
+
+.buwd-table .seperator {
+    font-size: 16px;
+}
+
+.buwd-table .not-auth {
+    color: #bd0303;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}
+
+.buwd-table .auth {
+    color: #216621;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}
+
+p.buwd-error,span.buwd-error {
+    color: #bd0303;
+    margin: 0;
+    font-size: 14px;
+}
+
+#option-general .buwd-key {
+    width: 21%;
+}
+
+.tr-backup_type .buwd-columns,
+.tr-archive_format .buwd-columns {
+    width: 50%;
+}
+
+.tr-dbtables .buwd-column > div {
+    width: 92%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tr-sugar_email span,
+.tr-sugar_pass span {
+    width: 120px;
+    display: inline-block;
+}
+
+span.time-size {
+    display: inline-block;
+    font-size: 13px;
+    width: 45px;
+    margin-left: 2px;
+}
+
+.buwd_days {
+    background: #F6F7F8;
+    border: 1px solid #E7E8EB;
+    padding: 0px;
+}
+
+.buwd_days tr td {
+    color: #4b5c73;
+    cursor: pointer;
+    padding: 3px 6px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.buwd_days tr td .buwd-day-span {
+    display: inline-block;
+    width: 30px;
+    padding: 6px 0px;
+}
+
+.buwd_days tr td .buwd-day-span-active {
+    background: #E1E5EB;
+    border-radius: 18px;
+}
+
+.buwd-disabled {
+    pointer-events: none;
+    cursor: pointer;
+    opacity: 0.7;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .04);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .04);
+    color: rgba(51, 51, 51, .5);
+}
+.buwd-disabled+label{
+    pointer-events: none;
+    cursor: pointer;
+
+}
+
+input.error{
+    border: 1px solid red  !important;
+}
+label.error{
+    display: block;
+    color: red;
+}

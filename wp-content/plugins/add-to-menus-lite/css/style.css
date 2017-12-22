@@ -1,0 +1,171 @@
+#add_to_menu_dialog table {
+    width: 100%;
+}
+#add_to_menu_dialog th {
+    text-align: left;
+    width: 25%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#add_to_menu_dialog td, #add_to_menu_dialog tr {
+    padding: 5px;
+}
+#add_to_menu_dialog td input[type="text"],#add_to_menu_dialog td textarea{
+    font-size: 12px;
+    padding: 5px 8px;
+    width: 100%;
+}
+#add_to_menu_dialog td label{
+    font-size: 12px;
+}
+#add_to_menu_dialog select option {
+    font-size: 12px;
+    padding: 0 10px;
+}
+#add_to_menu_dialog select[name="atm_access_level"] option,#add_to_menu_dialog select[name="atm_access_level"] {
+    font-size: 12px;
+}
+#add_to_menu_dialog optgroup {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 5px;
+    text-transform: capitalize;
+}
+#add_to_menu_dialog optgroup option:first-child {
+    margin-top: 3px;
+}
+#add_to_menu_dialog select[size] {
+    height: auto;
+    width: 100%;
+}
+#add_to_menu_dialog select[name="atm_access_level"] {
+    /*padding: 10px 5px;*/
+}
+.atm_children::before {
+    content: "|";
+}
+#add_to_menu_dialog table {
+    border-collapse:collapse;
+}
+tr.break_buttons {
+    border-top: 1px solid #ddd;
+}
+.break_buttons td {
+    padding: 15px 15px 15px 5px !important;
+}
+.access_level td, .access_level th {
+    padding: 5px 0 15px 5px !important;
+}
+#add_to_menu_dialog .required {
+    color: #f00;
+}
+.atm_top_level_menu {
+    background: #fa8072 none repeat scroll 0 0;
+    font-size: 11px !important;
+    font-weight: bold;
+    padding: 3px 5px !important;
+    text-align: center;
+    font-family: Trebuchet MS;
+    color: #fff;
+}
+.break_buttons img {
+    margin-top: 5px;
+}
+.atm-dialog-class {
+    z-index: 9999999 !important;
+}
+.atm_open_new_tab {
+    font-size: 12px;
+}
+.atm_open_new_tab input {
+    margin: -2px 0 0;
+}
+.atm_add_to_menus_meta_box {
+    margin-top: 5px !important;
+}
+.atm_role_wrapper label {
+    display: inline-block;
+    width: 32%;
+}
+#add_to_menu_dialog h3 {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border-left: 3px solid orange;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+}
+.atm_uber_settings .button {
+    border-color: #eee;
+    display: block;
+    height: auto !important;
+    white-space: normal !important;
+    width: 100%;
+}
+.atm_btn_width {
+    width: auto !important;
+}
+.atm_uber_settings tr th {
+    padding: 10px;
+}
+.atm_ubermenu_icons_fa_icons {
+    background: #eee none repeat scroll 0 0;
+    padding: 10px;
+}
+.atm_ubermenu_icons_fa_icons a {
+    color: #333;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    width: 20px;
+    text-align: center;
+}
+.atm_ubermenu_icons_fa_icons a:hover,.atm_ubermenu_icons_fa_icons a:focus {
+    background: #aaa none repeat scroll 0 0;
+}
+.atm_set_icon .fa {
+    display: block;
+    padding: 10px 0 2px;
+    font-size: 16px;
+}
+.atm_remove_btn_class {
+    border: medium none !important;
+    display: inline-block !important;
+    height: auto !important;
+    margin: 5px 0 0 5px !important;
+}
+.atm_uber_settings{
+    border: 1px solid #eee;
+}
+.atm_uber_settings tr:nth-child(even) {
+  background-color: #fafafa;
+}
+.atm_uber_settings tr:nth-child(odd) {
+  background-color: white;
+}
+.atm_uber_settings tr:nth-child(2n) th {
+    border-left: 3px solid #ff4500;
+}
+.atm_uber_settings tr th{
+    font-size: 11px;
+}
+.atm_admin_bar_meta_box {
+    padding: 15px 0 5px;
+    text-align: center;
+}
+.atm_admin_bar_meta_box p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.atm_pro_version_wrap {
+    background: #eee none repeat scroll 0 0;
+    display: table;
+    margin-top: 15px;
+    padding: 10px 0 25px;
+    width: 100%;
+}
+.atm_pro_version_wrap a {
+    margin-top: 10px !important;
+}

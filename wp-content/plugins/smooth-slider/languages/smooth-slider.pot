@@ -1,0 +1,914 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smooth Slider\n"
+"POT-Creation-Date: 2017-07-15 01:37+0530\n"
+"PO-Revision-Date: 2016-11-26 15:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: Tejaswini Deshpande <tedeshpa@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_etc\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: images\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+"X-Poedit-SearchPathExcluded-2: languages\n"
+
+#: includes/media-images.php:30
+msgid "Check the box and select the slider"
+msgstr ""
+
+#: includes/media-images.php:32
+msgid "Add this Image to "
+msgstr ""
+
+#: includes/media-images.php:53
+msgid "Slide Link URL"
+msgstr ""
+
+#: includes/media-images.php:55
+msgid "(If left empty, it will be by default linked to attachment permalink.)"
+msgstr ""
+
+#: includes/media-images.php:59 smooth-slider.php:620
+msgid "Do not link this slide to any page(url)"
+msgstr ""
+
+#: settings/settings.php:124 settings/settings.php:125
+msgid "Settings imported successfully "
+msgstr ""
+
+#: settings/settings.php:128 settings/settings.php:129
+msgid ""
+"Settings imported do not match to Smooth Slider Settings. Please check the "
+"file."
+msgstr ""
+
+#: settings/settings.php:133 settings/settings.php:134
+msgid ""
+"Error in File, Settings not imported. Please check the file being imported. "
+msgstr ""
+
+#: settings/settings.php:144
+msgid "Smooth Slider Settings "
+msgstr ""
+
+#: settings/settings.php:150
+msgid "Preview"
+msgstr ""
+
+#: settings/settings.php:177
+msgid "Basic Controls"
+msgstr ""
+
+#: settings/settings.php:181
+msgid "Select Skin"
+msgstr ""
+
+#: settings/settings.php:197
+msgid " Enable autostepping of slides"
+msgstr ""
+
+#: settings/settings.php:204
+msgid "Slide Transition Effect"
+msgstr ""
+
+#: settings/settings.php:206
+msgid "Scroll Horizontally"
+msgstr ""
+
+#: settings/settings.php:207
+msgid "Scroll Vertically"
+msgstr ""
+
+#: settings/settings.php:208
+msgid "Turn Up"
+msgstr ""
+
+#: settings/settings.php:209
+msgid "Turn Down"
+msgstr ""
+
+#: settings/settings.php:210
+msgid "Fade"
+msgstr ""
+
+#: settings/settings.php:211
+msgid "Uncover Slide"
+msgstr ""
+
+#: settings/settings.php:216
+msgid "Select the Transition Effect from six different effects."
+msgstr ""
+
+#: settings/settings.php:223
+msgid "Slide Pause Interval"
+msgstr ""
+
+#: settings/settings.php:224
+msgid "(in secs)"
+msgstr ""
+
+#: settings/settings.php:228
+msgid ""
+"Enter number of secs you want the slider to stop before sliding to next "
+"slide."
+msgstr ""
+
+#: settings/settings.php:235
+msgid "Slide Animation Length"
+msgstr ""
+
+#: settings/settings.php:240
+msgid ""
+"The duration of Slide Animation in milliseconds. Lower value indicates fast "
+"animation"
+msgstr ""
+
+#: settings/settings.php:247
+msgid "Number of Posts in the Slideshow"
+msgstr ""
+
+#: settings/settings.php:253
+msgid "Slide Background Color"
+msgstr ""
+
+#: settings/settings.php:255
+msgid " Use Transparent Background"
+msgstr ""
+
+#: settings/settings.php:259
+msgid "Min. Slider Height"
+msgstr ""
+
+#: settings/settings.php:260 settings/settings.php:266
+#: settings/settings.php:295 settings/settings.php:453
+#: settings/settings.php:508 settings/settings.php:587
+#: settings/settings.php:593 settings/settings.php:674
+msgid "px"
+msgstr ""
+
+#: settings/settings.php:265
+msgid "Slider Width"
+msgstr ""
+
+#: settings/settings.php:270 settings/settings.php:604
+msgid "Border Thickness"
+msgstr ""
+
+#: settings/settings.php:275
+msgid "Enter 0 if no border is required"
+msgstr ""
+
+#: settings/settings.php:282 settings/settings.php:616
+msgid "Border Color"
+msgstr ""
+
+#: settings/settings.php:287 settings/settings.php:288
+msgid "Navigation Buttons"
+msgstr ""
+
+#: settings/settings.php:291
+msgid "Show Prev/Next navigation arrows"
+msgstr ""
+
+#: settings/settings.php:292
+msgid "Show go to slide number links or images"
+msgstr ""
+
+#: settings/settings.php:293
+msgid "None "
+msgstr ""
+
+#: settings/settings.php:294
+msgid "Numbers"
+msgstr ""
+
+#: settings/settings.php:295
+msgid "Custom Images for Navigation"
+msgstr ""
+
+#: settings/settings.php:295
+msgid "Fixed Images for Navigation"
+msgstr ""
+
+#: settings/settings.php:295
+msgid "Size: "
+msgstr ""
+
+#: settings/settings.php:296
+msgid "Enter Custom Text or HTML"
+msgstr ""
+
+#: settings/settings.php:303 settings/settings.php:468
+#: settings/settings.php:523 settings/settings.php:634
+#: settings/settings.php:788 settings/settings.php:846
+msgid "Save Changes"
+msgstr ""
+
+#: settings/settings.php:308
+msgid "Miscellaneous"
+msgstr ""
+
+#: settings/settings.php:313
+msgid "Retain these html tags"
+msgstr ""
+
+#: settings/settings.php:318
+msgid ""
+"Put the tags like &lt;br&gt;&lt;a&gt;&ltp&gt; to retain them.Do not separate "
+"them using commas, neither use ' anywhere."
+msgstr ""
+
+#: settings/settings.php:324
+msgid "Continue Reading Text"
+msgstr ""
+
+#: settings/settings.php:329
+msgid "Color of \"Continue Reading Text\""
+msgstr ""
+
+#: settings/settings.php:335
+msgid "Minimum User Level to add Post to the Slider"
+msgstr ""
+
+#: settings/settings.php:337
+msgid "Administrator"
+msgstr ""
+
+#: settings/settings.php:338
+msgid "Editor and Admininstrator"
+msgstr ""
+
+#: settings/settings.php:339
+msgid "Author, Editor and Admininstrator"
+msgstr ""
+
+#: settings/settings.php:340
+msgid "Contributor, Author, Editor and Admininstrator"
+msgstr ""
+
+#: settings/settings.php:346
+msgid "Randomize Slides in Slider"
+msgstr ""
+
+#: settings/settings.php:351
+msgid "check this if you want the slides added to appear in random order"
+msgstr ""
+
+#: settings/settings.php:358
+msgid "Text to display in the JavaScript disabled browser"
+msgstr ""
+
+#: settings/settings.php:363
+msgid "Add Shortcode Support"
+msgstr ""
+
+#: settings/settings.php:364
+msgid ""
+"check this if you want to use Smooth Slider Shortcode i.e [smoothslider]"
+msgstr ""
+
+#: settings/settings.php:368
+msgid "Multiple Slider Feature"
+msgstr ""
+
+#: settings/settings.php:371
+msgid "Enable Multiple Slider Function on Edit Post/Page"
+msgstr ""
+
+#: settings/settings.php:375
+msgid "Enable FOUC"
+msgstr ""
+
+#: settings/settings.php:380
+msgid ""
+"(check this if you would not want to disable Flash of Unstyled Content in "
+"the slider when the page is loaded)"
+msgstr ""
+
+#: settings/settings.php:387
+msgid "Custom Styles"
+msgstr ""
+
+#: settings/settings.php:392
+msgid ""
+"(custom css styles that you would want to be applied to the slider elements)"
+msgstr ""
+
+#: settings/settings.php:405
+msgid "Slider Title"
+msgstr ""
+
+#: settings/settings.php:406
+msgid "Customize the looks of the main title of the Slideshow from here"
+msgstr ""
+
+#: settings/settings.php:410 settings/settings.php:417
+msgid "Default Title Text"
+msgstr ""
+
+#: settings/settings.php:415
+msgid "Pick Slider Title From"
+msgstr ""
+
+#: settings/settings.php:418
+msgid "Slider Name"
+msgstr ""
+
+#: settings/settings.php:424 settings/settings.php:478
+#: settings/settings.php:644
+msgid "Font"
+msgstr ""
+
+#: settings/settings.php:448 settings/settings.php:502
+#: settings/settings.php:668
+msgid "Font Color"
+msgstr ""
+
+#: settings/settings.php:452 settings/settings.php:507
+#: settings/settings.php:673
+msgid "Font Size"
+msgstr ""
+
+#: settings/settings.php:457 settings/settings.php:512
+#: settings/settings.php:678
+msgid "Font Style"
+msgstr ""
+
+#: settings/settings.php:459 settings/settings.php:514
+#: settings/settings.php:680
+msgid "Bold"
+msgstr ""
+
+#: settings/settings.php:460 settings/settings.php:515
+#: settings/settings.php:681
+msgid "Bold Italic"
+msgstr ""
+
+#: settings/settings.php:461 settings/settings.php:516
+#: settings/settings.php:682
+msgid "Italic"
+msgstr ""
+
+#: settings/settings.php:462 settings/settings.php:517
+#: settings/settings.php:683
+msgid "Normal"
+msgstr ""
+
+#: settings/settings.php:473
+msgid "Post Title"
+msgstr ""
+
+#: settings/settings.php:474
+msgid "Customize the looks of the title of each of the sliding post here"
+msgstr ""
+
+#: settings/settings.php:528
+msgid "Thumbnail Image"
+msgstr ""
+
+#: settings/settings.php:529
+msgid ""
+"Customize the looks of the thumbnail image for each of the sliding post here"
+msgstr ""
+
+#: settings/settings.php:533
+msgid "Image Pick Preferences"
+msgstr ""
+
+#: settings/settings.php:533 settings/settings.php:534
+msgid ""
+"(The first one is having priority over second, the second having priority on "
+"third and so on)"
+msgstr ""
+
+#: settings/settings.php:534
+msgid "Image Pick Sequence"
+msgstr ""
+
+#: settings/settings.php:535
+msgid "Use Custom Field/Key"
+msgstr ""
+
+#: settings/settings.php:536
+msgid "Name of the Custom Field/Key"
+msgstr ""
+
+#: settings/settings.php:537
+msgid "Use Featured Post/Thumbnail (Wordpress 3.0 +  feature)"
+msgstr ""
+
+#: settings/settings.php:538
+msgid "Consider Images attached to the post"
+msgstr ""
+
+#: settings/settings.php:539
+msgid "Order of the Image attachment to pick"
+msgstr ""
+
+#: settings/settings.php:540
+msgid ""
+"Scan images from the post, in case there is no attached image to the post"
+msgstr ""
+
+#: settings/settings.php:545
+msgid "Align to"
+msgstr ""
+
+#: settings/settings.php:547
+msgid "Left"
+msgstr ""
+
+#: settings/settings.php:548
+msgid "Right"
+msgstr ""
+
+#: settings/settings.php:549 settings/settings.php:865 smooth-slider.php:665
+msgid "None"
+msgstr ""
+
+#: settings/settings.php:555
+msgid "Wordpress Image Extract Size"
+msgstr ""
+
+#: settings/settings.php:558
+msgid "Full"
+msgstr ""
+
+#: settings/settings.php:559
+msgid "Large"
+msgstr ""
+
+#: settings/settings.php:560
+msgid "Medium"
+msgstr ""
+
+#: settings/settings.php:561
+msgid "Thumbnail"
+msgstr ""
+
+#: settings/settings.php:566
+msgid ""
+"This is for fast page load, in case you choose 'Custom Size' setting from "
+"below, you would not like to extract 'full' size image from the media "
+"library. In this case you can use, 'medium' or 'thumbnail' image. This is "
+"because, for every image upload to the media gallery WordPress creates four "
+"sizes of the same image. So you can choose which to load in the slider and "
+"then specify the actual size."
+msgstr ""
+
+#: settings/settings.php:575 settings/settings.php:576
+msgid "Image Size"
+msgstr ""
+
+#: settings/settings.php:577
+msgid "Original Size"
+msgstr ""
+
+#: settings/settings.php:581
+msgid ""
+"(In this case, the size would be equal to the extracted image (full/large/"
+"medium/thumbnail) from the above settings"
+msgstr ""
+
+#: settings/settings.php:585
+msgid "Custom Size:"
+msgstr ""
+
+#: settings/settings.php:586
+msgid "Width"
+msgstr ""
+
+#: settings/settings.php:592
+msgid "Maximum Height of the Image"
+msgstr ""
+
+#: settings/settings.php:597
+msgid ""
+"(This is necessary in order to keep the maximum image height in control)"
+msgstr ""
+
+#: settings/settings.php:609
+msgid "px  (put 0 if no border is required)"
+msgstr ""
+
+#: settings/settings.php:621
+msgid "Make pure Image Slider"
+msgstr ""
+
+#: settings/settings.php:626
+msgid "(check this to convert Smooth Slider to Image Slider with no content)"
+msgstr ""
+
+#: settings/settings.php:640
+msgid "Slider Content"
+msgstr ""
+
+#: settings/settings.php:641
+msgid "Customize the looks of the content of each of the sliding post here"
+msgstr ""
+
+#: settings/settings.php:689
+msgid "Pick content From"
+msgstr ""
+
+#: settings/settings.php:691
+msgid "Slider Content Custom field"
+msgstr ""
+
+#: settings/settings.php:692
+msgid "Post Excerpt"
+msgstr ""
+
+#: settings/settings.php:693
+msgid "From Content"
+msgstr ""
+
+#: settings/settings.php:699
+msgid "Maximum content size (in words)"
+msgstr ""
+
+#: settings/settings.php:704
+msgid ""
+"If the number of Words are not specified in this field, the below field i.e. "
+"the 'Maximum Content Size in Chracters' will be considered."
+msgstr ""
+
+#: settings/settings.php:711
+msgid "Maximum content size (in characters)"
+msgstr ""
+
+#: settings/settings.php:712
+msgid "characters"
+msgstr ""
+
+#: settings/settings.php:722
+msgid "Preview on Settings Panel"
+msgstr ""
+
+#: settings/settings.php:727
+msgid "Disable Preview Section"
+msgstr ""
+
+#: settings/settings.php:733
+msgid ""
+"If disabled, the 'Preview' of Slider on this Settings page will be removed."
+msgstr ""
+
+#: settings/settings.php:740
+msgid "Type of Smooth Slider"
+msgstr ""
+
+#: settings/settings.php:742
+msgid "Recent Posts Slider"
+msgstr ""
+
+#: settings/settings.php:743
+msgid "Category Slider"
+msgstr ""
+
+#: settings/settings.php:744
+msgid "Custom Slider"
+msgstr ""
+
+#: settings/settings.php:774 settings/settings.php:775
+msgid "Preview Slider Params"
+msgstr ""
+
+#: settings/settings.php:777
+msgid "Select Slider Name"
+msgstr ""
+
+#: settings/settings.php:780
+msgid "Select Category"
+msgstr ""
+
+#: settings/settings.php:793
+msgid "Shortcode"
+msgstr ""
+
+#: settings/settings.php:794
+msgid ""
+"Paste the below shortcode on Page/Post Edit Panel to get the slider as shown "
+"in the above Preview"
+msgstr ""
+
+#: settings/settings.php:806
+msgid "Template Tag"
+msgstr ""
+
+#: settings/settings.php:807
+msgid ""
+"Paste the below template tag in your theme template file like index.php or "
+"page.php at required location to get the slider as shown in the above Preview"
+msgstr ""
+
+#: settings/settings.php:822
+msgid "CSS Generated thru these settings"
+msgstr ""
+
+#: settings/settings.php:823
+msgid ""
+"Save Changes for the settings first and then view this data. You can use "
+"this CSS in your 'custom' stylesheets if you use other than 'default' value "
+"for the Stylesheet folder."
+msgstr ""
+
+#: settings/settings.php:863
+msgid "Reset Settings to"
+msgstr ""
+
+#: settings/settings.php:866
+msgid "Global Default"
+msgstr ""
+
+#: settings/settings.php:885
+msgid "Reset Settings"
+msgstr ""
+
+#: settings/settings.php:893
+msgid "Import Settings Set by uploading a Settings File"
+msgstr ""
+
+#: settings/settings.php:897
+msgid "Import Settings from a file"
+msgstr ""
+
+#: settings/settings.php:906 settings/sliders.php:306
+msgid ""
+"Hey, I noticed you have created an awesome slider using Smooth Slider and "
+"using it for more than a week. Could you please do me a BIG favor and give "
+"it a 5-star rating on WordPress? Just to help us spread the word and boost "
+"our motivation."
+msgstr ""
+
+#: settings/settings.php:907 settings/sliders.php:307
+msgid "~ Tejaswini from SliderVilla"
+msgstr ""
+
+#: settings/settings.php:908 settings/sliders.php:308
+msgid "Please review and rate Smooth Slider on WordPress.org"
+msgstr ""
+
+#: settings/settings.php:908 settings/sliders.php:308
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: settings/settings.php:909 settings/sliders.php:309
+msgid "Rate Smooth Slider at some other time!"
+msgstr ""
+
+#: settings/settings.php:909 settings/sliders.php:309
+msgid "Nope, maybe later"
+msgstr ""
+
+#: settings/settings.php:910 settings/sliders.php:310
+msgid "Click this if you have already rated us 5-star!"
+msgstr ""
+
+#: settings/settings.php:910 settings/sliders.php:310
+msgid "I already did"
+msgstr ""
+
+#: settings/settings.php:979
+msgid "Quick Embed Shortcode"
+msgstr ""
+
+#: settings/settings.php:992
+msgid "Quick Embed Template Tag"
+msgstr ""
+
+#: settings/settings.php:1005
+msgid ""
+"Go to Sliders page where you can re-order the slide posts, delete the slides "
+"from the slider etc."
+msgstr ""
+
+#: settings/settings.php:1005
+msgid "Go to Sliders Admin"
+msgstr ""
+
+#: settings/settings.php:1006
+msgid "Export this Settings Set to a file"
+msgstr ""
+
+#: settings/settings.php:1007
+msgid "Go to Import Settings Form"
+msgstr ""
+
+#: settings/settings.php:1021 settings/sliders.php:341
+msgid "About this Plugin:"
+msgstr ""
+
+#: settings/settings.php:1024 settings/sliders.php:344
+msgid "Smooth Slider Homepage"
+msgstr ""
+
+#: settings/settings.php:1024 settings/sliders.php:344
+msgid "Plugin Homepage"
+msgstr ""
+
+#: settings/settings.php:1025 settings/sliders.php:345
+msgid "Support Forum for Smooth Slider"
+msgstr ""
+
+#: settings/settings.php:1026 settings/sliders.php:346
+msgid "Support Forum"
+msgstr ""
+
+#: settings/settings.php:1027 settings/sliders.php:347
+msgid "Smooth Slider Author Page"
+msgstr ""
+
+#: settings/settings.php:1027 settings/sliders.php:347
+msgid "About the Author"
+msgstr ""
+
+#: settings/settings.php:1028 settings/sliders.php:348
+msgid ""
+"Donate if you liked the plugin and support in enhancing Smooth Slider and "
+"creating new plugins"
+msgstr ""
+
+#: settings/settings.php:1028 settings/sliders.php:348
+msgid "Donate with Paypal"
+msgstr ""
+
+#: settings/sliders.php:6
+msgid "Sliders Created"
+msgstr ""
+
+#: settings/sliders.php:28 settings/sliders.php:232
+msgid "Remove All at Once"
+msgstr ""
+
+#: settings/sliders.php:39 settings/sliders.php:235
+msgid "Delete Slider"
+msgstr ""
+
+#: settings/sliders.php:93 settings/sliders.php:293
+msgid "Rename"
+msgstr ""
+
+#: settings/sliders.php:155
+msgid ""
+"Settings Page for Smooth Slider where you can change the color, font etc. "
+"for the sliders"
+msgstr ""
+
+#: settings/sliders.php:155
+msgid "Go to Smooth Slider Settings page"
+msgstr ""
+
+#: settings/sliders.php:164
+msgid "Create New Slider"
+msgstr ""
+
+#: settings/sliders.php:179
+msgid "Add Images to"
+msgstr ""
+
+#: settings/sliders.php:196
+msgid "Posts/Pages Added To"
+msgstr ""
+
+#: settings/sliders.php:196
+msgid "(Slider ID"
+msgstr ""
+
+#: settings/sliders.php:197
+msgid "Check the Post/Page and Press \"Remove Selected\" to remove them From"
+msgstr ""
+
+#: settings/sliders.php:197
+msgid "Press \"Remove All at Once\" to remove all the posts from the"
+msgstr ""
+
+#: settings/sliders.php:200 settings/sliders.php:228
+msgid "Post/Page Title"
+msgstr ""
+
+#: settings/sliders.php:200 settings/sliders.php:228
+msgid "Author"
+msgstr ""
+
+#: settings/sliders.php:200 settings/sliders.php:228
+msgid "Post Date"
+msgstr ""
+
+#: settings/sliders.php:200 settings/sliders.php:228
+msgid "Remove Post"
+msgstr ""
+
+#: settings/sliders.php:220
+msgid "(Edit)"
+msgstr ""
+
+#: settings/sliders.php:220
+msgid "(View)"
+msgstr ""
+
+#: settings/sliders.php:226 settings/sliders.php:271
+msgid ""
+"No posts/pages have been added to the Slider - You can add respective post/"
+"page to slider on the Edit screen for that Post/Page"
+msgstr ""
+
+#: settings/sliders.php:232
+msgid "Remove Selected"
+msgstr ""
+
+#: settings/sliders.php:247
+msgid "Reorder the Posts/Pages Added To"
+msgstr ""
+
+#: settings/sliders.php:248
+msgid ""
+"Click on and drag the post/page title to a new spot within the list, and the "
+"other items will adjust to fit."
+msgstr ""
+
+#: settings/sliders.php:284
+msgid "Rename Slider"
+msgstr ""
+
+#: settings/sliders.php:288
+msgid "Rename Slider to"
+msgstr ""
+
+#: settings/sliders.php:293
+msgid "rename_slider"
+msgstr ""
+
+#: settings/sliders.php:324
+msgid "Enter New Slider Name"
+msgstr ""
+
+#: settings/sliders.php:329
+msgid "Create New"
+msgstr ""
+
+#: smooth-slider.php:433 smooth-slider.php:452
+msgid "Smooth Slider"
+msgstr ""
+
+#: smooth-slider.php:596
+msgid "Add this post/page to"
+msgstr ""
+
+#: smooth-slider.php:609
+msgid "Show All"
+msgstr ""
+
+#: smooth-slider.php:616
+msgid "Slide Link URL "
+msgstr ""
+
+#: smooth-slider.php:617
+msgid "If left empty, it will be by default linked to the permalink."
+msgstr ""
+
+#: smooth-slider.php:630
+msgid "Display "
+msgstr ""
+
+#: smooth-slider.php:635
+msgid "on this Post/Page"
+msgstr ""
+
+#: smooth-slider.php:636
+msgid ""
+"(Add the Smooth Slider template tag manually on your page.php/single.php or "
+"whatever page template file)"
+msgstr ""
+
+#: smooth-slider.php:640
+msgid "Stylesheet to use if slider is displayed on this Post/Page"
+msgstr ""
+
+#: smooth-slider.php:659
+msgid "Custom Thumbnail Image(url)"
+msgstr ""
+
+#: smooth-slider.php:664
+msgid "Expiry Date"
+msgstr ""
+
+#: smooth-slider.php:669
+msgid "Disable Thumbnail Image"
+msgstr ""
+
+#: smooth-slider.php:675
+msgid "Embed Shortcode"
+msgstr ""
+
+#: smooth-slider.php:747
+msgid "Settings"
+msgstr ""

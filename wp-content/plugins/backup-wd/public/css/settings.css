@@ -1,0 +1,17 @@
+#buwd-settings .buwd-key {
+  vertical-align: top;
+  width: 25%;
+}
+
+p.buwd-info {
+  margin: 0;
+  font-size: 15px;
+}
+
+.buwd-input-error {
+  border:1px solid #f1003c !important;
+}
+
+.buwd-input-error + span p {
+  color: #f1003c !important;
+}

@@ -1,0 +1,3388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanved Ads\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2017-07-11 09:29+0000\n"
+"PO-Revision-Date: 2017-07-11 09:29+0000\n"
+"Last-Translator: Thomas Maier <post@webzunft.de>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Target-Locale: es_ES"
+
+#: classes/ad-debug.php:271
+msgid ""
+"Your website is using HTTPS, but the ad code contains HTTP and might not "
+"work."
+msgstr ""
+
+#: classes/ad_placements.php:60
+msgid ""
+"Injected into the content. You can choose the paragraph after which the ad "
+"content is displayed."
+msgstr ""
+
+#: classes/ad_placements.php:517
+#, php-format
+msgid "Set <em>%s</em> to show more ads"
+msgstr ""
+
+#: classes/ad_placements.php:517 admin/includes/class-settings.php:110
+msgid "Disable level limitation"
+msgstr ""
+
+#: classes/ad_type_dummy.php:26
+msgid "Dummy"
+msgstr ""
+
+#: classes/ad_type_dummy.php:27
+msgid "Uses a simple placeholder ad for quick testing."
+msgstr ""
+
+#: classes/ad_type_dummy.php:47 classes/ad_type_image.php:65
+msgid "url"
+msgstr ""
+
+#: classes/ad_type_image.php:34
+msgid "Image Ad"
+msgstr ""
+
+#: classes/ad_type_image.php:35
+msgid "Ads in various image formats."
+msgstr ""
+
+#: classes/ad_type_image.php:55
+msgid "Insert File"
+msgstr ""
+
+#: classes/ad_type_image.php:55
+msgid "Insert"
+msgstr ""
+
+#: classes/ad_type_image.php:55
+msgid "select image"
+msgstr ""
+
+#: classes/ad_type_image.php:56
+msgid "edit"
+msgstr ""
+
+#: classes/ad_type_image.php:67
+msgid "Link to target site"
+msgstr ""
+
+#: classes/ad_type_image.php:68
+#, php-format
+msgid ""
+"Open this url in a new window and track impressions and clicks with the <a "
+"href=\"%s\" target=\"_blank\">Tracking add-on</a>"
+msgstr ""
+
+#: classes/ad_type_plain.php:87
+msgid "Allow PHP"
+msgstr ""
+
+#: classes/display-conditions.php:213 classes/display-conditions.php:266
+#: classes/display-conditions.php:321 classes/display-conditions.php:395
+#: classes/visitor-conditions.php:126
+msgid "is"
+msgstr ""
+
+#: classes/display-conditions.php:214 classes/display-conditions.php:267
+#: classes/display-conditions.php:322 classes/display-conditions.php:396
+#: classes/visitor-conditions.php:127
+msgid "is not"
+msgstr ""
+
+#: classes/display-conditions.php:283
+#, php-format
+msgid ""
+"Only %d elements are displayed above. Use the <code>advanced-ads-admin-max-"
+"terms</code> filter to change this limit according to <a href=\"%s\" "
+"target=\"_blank\">this page</a>."
+msgstr ""
+
+#: classes/filesystem.php:61
+msgid "Could not access filesystem."
+msgstr ""
+
+#: classes/filesystem.php:65
+msgid "Filesystem error."
+msgstr ""
+
+#: classes/filesystem.php:72
+msgid "Unable to locate WordPress root directory."
+msgstr ""
+
+#: classes/filesystem.php:76
+msgid "Unable to locate WordPress content directory (wp-content)."
+msgstr ""
+
+#: classes/filesystem.php:80
+#, php-format
+msgid "Unable to locate needed folder (%s)."
+msgstr ""
+
+#: classes/frontend_checks.php:61
+msgid "Random AdSense ads"
+msgstr ""
+
+#: classes/frontend_checks.php:315
+#, php-format
+msgid ""
+"This ads was automatically placed here by AdSense. <a href=\"%s\" "
+"target=\"_blank\" style=\"color:#fff;border-color:#fff;\">Click here to "
+"learn more</a>."
+msgstr ""
+
+#: classes/visitor-conditions.php:32
+msgid "device"
+msgstr ""
+
+#: classes/visitor-conditions.php:86
+msgid "Mobile (including tablets)"
+msgstr ""
+
+#: classes/visitor-conditions.php:87
+msgid "Desktop"
+msgstr ""
+
+#: classes/visitor-conditions.php:98
+#, php-format
+msgid ""
+"Display ads by the available space on the device or target tablets with the "
+"<a href=\"%s\" target=\"_blank\">Responsive add-on</a>"
+msgstr ""
+
+#: classes/widget.php:61
+msgid "Title:"
+msgstr ""
+
+#: includes/array_ad_conditions.php:39
+msgid "Post Types"
+msgstr ""
+
+#: includes/array_ad_conditions.php:45
+msgid "Categories, Tags and Taxonomies"
+msgstr ""
+
+#: includes/array_ad_conditions.php:46
+msgid ""
+"Choose terms from public category, tag and other taxonomies a post must "
+"belong to in order to have ads."
+msgstr ""
+
+#: includes/array_ad_conditions.php:51
+msgid "Category Archives"
+msgstr ""
+
+#: includes/array_ad_conditions.php:52
+msgid "comma seperated IDs of category archives"
+msgstr ""
+
+#: includes/array_ad_conditions.php:57
+msgid "Individual Posts, Pages and Public Post Types"
+msgstr ""
+
+#: admin/includes/class-ad-groups-list.php:208
+#, php-format
+msgid "show %d more ads"
+msgstr ""
+
+#: admin/includes/class-ad-groups-list.php:218
+msgid "Add some"
+msgstr ""
+
+#: admin/includes/class-ad-groups-list.php:318
+msgid "Delete"
+msgstr ""
+
+#: admin/includes/class-ad-groups-list.php:374
+msgid "No ad group created"
+msgstr ""
+
+#: admin/includes/class-ad-type.php:222
+#, php-format
+msgid "%s ad updated."
+msgid_plural "%s ads updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/includes/class-ad-type.php:223
+#, php-format
+msgid "%s ad not updated, somebody is editing it."
+msgid_plural "%s ads not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/includes/class-ad-type.php:224
+#, php-format
+msgid "%s ad permanently deleted."
+msgid_plural "%s ads permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/includes/class-ad-type.php:225
+#, php-format
+msgid "%s ad moved to the Trash."
+msgid_plural "%s ads moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/includes/class-ad-type.php:226
+#, php-format
+msgid "%s ad restored from the Trash."
+msgid_plural "%s ads restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/includes/class-licenses.php:86
+#, php-format
+msgid ""
+"There might be a new version of %1$s. Please <strong>provide a valid license "
+"key</strong> in order to receive updates and support <a href=\"%2$s\">on "
+"this page</a>."
+msgstr ""
+
+#: admin/includes/class-licenses.php:158
+#, php-format
+msgid "License is invalid. Reason: %s"
+msgstr ""
+
+#: admin/includes/class-licenses.php:470
+#, php-format
+msgid "Download failed. <a href=\"%s\">Click here to try another method</a>."
+msgstr ""
+
+#: admin/includes/class-licenses.php:472
+#, php-format
+msgid ""
+"Download failed. <a href=\"%s\" target=\"_blank\">Click here to learn why</a>"
+"."
+msgstr ""
+
+#: admin/includes/class-settings.php:178
+msgid "Disable shortcode button"
+msgstr ""
+
+#: admin/includes/class-settings.php:220
+#, php-format
+msgid ""
+"Enter license keys for our powerful <a href=\"%s\" target=\"_blank\">add-"
+"ons</a>."
+msgstr ""
+
+#: admin/includes/class-settings.php:221
+#, php-format
+msgid ""
+"See also <a href=\"%s\" target=\"_blank\">Issues and questions about "
+"licenses</a>."
+msgstr ""
+
+#: admin/includes/class-settings.php:305
+msgid ""
+"Some plugins and themes trigger ad injections where it shouldn’t happen. "
+"Therefore, Advanced Ads ignores injected placements on non-singular pages "
+"and outside the loop. However, this can cause problems with some themes. Set "
+"this option to -1 in order to enable unlimited ad injection at your own risk,"
+" set it to 0 to keep it disabled or choose a positive number to enable the "
+"injection only in the first x posts on your archive pages."
+msgstr ""
+
+#: admin/includes/class-settings.php:337
+msgid ""
+"Advanced Ads ignores paragraphs and other elements in containers when "
+"injecting ads into the post content. Check this option to ignore this "
+"limitation and ads might show up again."
+msgstr ""
+
+#: admin/includes/class-settings.php:439
+msgctxt "label before ads"
+msgid "Advertisements"
+msgstr ""
+
+#: admin/includes/class-settings.php:473
+msgid "Disable shortcode button in visual editor."
+msgstr ""
+
+#: admin/includes/class-shortcode-creator.php:155
+#, php-format
+msgid ""
+"Please, either switch off your ad blocker or disable the shortcode button in "
+"the <a href=\"%s\" target=\"_blank\">settings</a>."
+msgstr ""
+
+#: admin/includes/notices.php:9
+#, php-format
+msgid ""
+"Advanced Ads successfully installed. <a href=\"%s\" class=\"button button-"
+"primary\">Create your first ad</a>"
+msgstr ""
+
+#: admin/views/ad-display-metabox.php:9
+msgid ""
+"Click on the button below if the ad should NOT show up on all pages when "
+"included automatically."
+msgstr ""
+
+#: admin/views/ad-display-metabox.php:10
+msgid "Hide the ad on some pages"
+msgstr ""
+
+#: admin/views/ad-display-metabox.php:17
+msgid "Watch video"
+msgstr ""
+
+#: admin/views/ad-display-metabox.php:19 admin/views/ad-visitor-metabox.php:17
+msgid "Visit the manual"
+msgstr ""
+
+#: admin/views/ad-display-metabox.php:23
+msgid "A page with this ad on it must match all of the following conditions."
+msgstr ""
+
+#: admin/views/ad-group-edit.php:14
+msgid "You did not select an item for editing."
+msgstr ""
+
+#: admin/views/ad-group-edit.php:33
+msgctxt "Taxonomy Name"
+msgid "Name"
+msgstr ""
+
+#: admin/views/ad-group-edit.php:38
+msgctxt "Taxonomy Slug"
+msgid "Slug"
+msgstr ""
+
+#: admin/views/ad-group-edit.php:45
+msgctxt "Taxonomy Description"
+msgid "Description"
+msgstr ""
+
+#: admin/views/ad-group-list-form-row.php:57
+msgid "Visible ads"
+msgstr ""
+
+#: admin/views/ad-group.php:18
+msgid "Ad Group successfully created"
+msgstr ""
+
+#: admin/views/ad-group.php:65
+msgid "Group title"
+msgstr ""
+
+#: admin/views/ad-group.php:66
+msgid "save"
+msgstr ""
+
+#: admin/views/ad-group.php:69
+#, php-format
+msgid ""
+"Find more information about ad groups in the <a href=\"%s\" "
+"target=\"_blank\">manual</a>."
+msgstr ""
+
+#: admin/views/ad-output-metabox.php:44
+msgid ""
+"Specify one or more classes for the container. Separate multiple classes "
+"with a space"
+msgstr ""
+
+#: admin/views/ad-submitbox-meta.php:12
+msgid "Month"
+msgstr ""
+
+#: admin/views/ad-submitbox-meta.php:21
+msgid "Day"
+msgstr ""
+
+#: admin/views/ad-submitbox-meta.php:22
+msgid "Year"
+msgstr ""
+
+#: admin/views/ad-submitbox-meta.php:23
+msgid "Hour"
+msgstr ""
+
+#: admin/views/ad-submitbox-meta.php:24
+msgid "Minute"
+msgstr ""
+
+#: admin/views/ad-visitor-metabox.php:7
+msgid ""
+"Click on the button below if the ad should NOT be visible to all visitors"
+msgstr ""
+
+#: admin/views/ad-visitor-metabox.php:8
+msgid "Hide the ad from some users"
+msgstr ""
+
+#: admin/views/ad-visitor-metabox.php:49
+msgid "It seems that a caching plugin is activated."
+msgstr ""
+
+#: admin/views/feedback-disable.php:6
+msgid "It is only temporary"
+msgstr ""
+
+#: admin/views/feedback-disable.php:7
+msgid "I need help to set it up"
+msgstr ""
+
+#: admin/views/feedback-disable.php:8
+msgid "I have a problem"
+msgstr ""
+
+#: admin/views/feedback-disable.php:9
+msgid "Please let us know how we can help"
+msgstr ""
+
+#: admin/views/feedback-disable.php:12
+#, php-format
+msgid "Send me free help to %s"
+msgstr ""
+
+#: admin/views/feedback-disable.php:14
+msgid "I miss a feature"
+msgstr ""
+
+#: admin/views/feedback-disable.php:15 admin/views/feedback-disable.php:18
+msgid "Which one?"
+msgstr ""
+
+#: admin/views/feedback-disable.php:16
+msgid "I don’t use ads on my site"
+msgstr ""
+
+#: admin/views/feedback-disable.php:17
+msgid "I switched to another plugin"
+msgstr ""
+
+#: admin/views/feedback-disable.php:20
+msgid "Please specify"
+msgstr ""
+
+#: admin/views/feedback-disable.php:25
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: admin/views/feedback-disable.php:26
+msgid "Only Deactivate"
+msgstr ""
+
+#: admin/views/feedback-disable.php:27
+msgid "don’t deactivate"
+msgstr ""
+
+#: admin/views/placements-ad-label-position.php:18
+msgid ""
+"Check this if you don't want the following elements to float around the ad. "
+"(adds a placement_clearfix)"
+msgstr ""
+
+#: admin/views/placements-ad-label.php:5 admin/views/placements-ad-label.php:7
+msgid "enabled"
+msgstr ""
+
+#: admin/views/placements-ad-label.php:9 admin/views/placements-ad-label.php:11
+msgid "disabled"
+msgstr ""
+
+#: admin/views/placements.php:68
+msgid "template (PHP)"
+msgstr ""
+
+#: admin/views/placements.php:94
+msgid "position"
+msgstr ""
+
+#: admin/views/placements.php:119
+msgid "ad label"
+msgstr ""
+
+#: admin/views/placements.php:128
+msgid "show all options"
+msgstr ""
+
+#: admin/views/placements.php:135
+#, php-format
+msgid ""
+"Tutorial: <a href=\"%s\" target=\"_blank\">How to place visible ads in the "
+"header of your website</a>."
+msgstr ""
+
+#: admin/views/setting-license.php:15
+#, php-format
+msgid ""
+"Click on %2$s if you renewed it or have a subscription or <a href=\"%1$s\" "
+"target=\"_blank\">renew your license with a discount</a>."
+msgstr ""
+
+#: admin/views/setting-license.php:41
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/views/setting-license.php:47
+msgid "Update License"
+msgstr ""
+
+#: admin/views/setting-license.php:47
+msgid "Activate License"
+msgstr ""
+
+#: modules/gadsense/admin/admin.php:219
+msgid ""
+"You still need to enable Page-Level ads in your AdSense account. See <a "
+"href=\"https://support.google.com/adsense/answer/6245304\" target=\"_blank\">"
+"AdSense Help</a> (requires AdSense-login) for more information."
+msgstr ""
+
+#: modules/gadsense/admin/admin.php:220
+#, php-format
+msgid ""
+"Please notice that this code might also activate QuickStart ads. Please read "
+"<a href=\"%s\" target=\"_blank\">this article</a> if <strong>ads appear in "
+"random places</strong>."
+msgstr ""
+
+#: modules/gadsense/admin/admin.php:312
+#, php-format
+msgid ""
+"Responsive AdSense ads don’t work reliably with <em>Position</em> set to "
+"left or right. Either switch the <em>Type</em> to \"normal\" or follow <a "
+"href=\"%s\" target=\"_blank\">this tutorial</a> if you want the ad to be "
+"wrapped in text."
+msgstr ""
+
+#: modules/import-export/views/page.php:28
+msgid "Download Export File"
+msgstr ""
+
+#: modules/import-export/views/page.php:52
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: modules/import-export/views/page.php:57
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+
+#: modules/ad-blocker/admin/views/setting-use-adblocker.php:4
+msgid ""
+"The ad block disguise can only be set by the super admin on the main site in "
+"the network."
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:24
+msgid ""
+"Copy the ad code from your AdSense account, paste it into the area below and "
+"click on <em>Get details</em>."
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:30
+msgid "Insert new AdSense code"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:60
+msgid "Responsive (Matched Content)"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:61
+msgid "Link ads"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:62
+msgid "Link ads (Responsive)"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:63
+msgid "InArticle"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:64
+msgid "InFeed"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:81
+msgid "Tutorial: How to place ads between posts?"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:82
+msgid "Layout"
+msgstr ""
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:86
+msgid "Layout-Key"
+msgstr ""
+
+#: admin/class-advanced-ads-admin.php:190 classes/display-conditions.php:178
+#: classes/visitor-conditions.php:241 admin/views/ad-display-metabox.php:114
+msgid "or"
+msgstr "o"
+
+#: admin/class-advanced-ads-admin.php:191 classes/display-conditions.php:178
+#: classes/visitor-conditions.php:241 admin/views/ad-visitor-metabox.php:88
+msgid "and"
+msgstr "y"
+
+#: admin/class-advanced-ads-admin.php:192
+msgid "After which paragraph?"
+msgstr "Después de que párrafo?"
+
+#: admin/class-advanced-ads-admin.php:300
+#, php-format
+msgid "time of %s"
+msgstr "Tiempo de %s"
+
+#: admin/class-advanced-ads-admin.php:341 admin/includes/class-menu.php:83
+#: admin/includes/class-menu.php:83
+msgid "Support"
+msgstr "Soporte"
+
+#: admin/class-advanced-ads-admin.php:345
+msgid "Add-Ons"
+msgstr "Add-Ons"
+
+#: classes/ad-debug.php:32
+msgid "The ad is displayed on the page"
+msgstr "El anuncio está mostrado en la página"
+
+#: classes/ad-debug.php:34
+msgid "The ad is not displayed on the page"
+msgstr "El anuncio no está mostrado en la página"
+
+#: classes/ad-debug.php:39
+msgid "Current query is not identical to main query."
+msgstr "La consulta (query) actual no es idéntica a la consulta principal."
+
+#: classes/ad-debug.php:45
+msgid "current post"
+msgstr "Entrada actual"
+
+#: classes/ad-debug.php:49
+msgid "Current post is not identical to main post."
+msgstr "La entrada actual no es idéntica a la entrada principal."
+
+#: classes/ad-debug.php:51
+msgid "main post"
+msgstr "Entrada principal"
+
+#: classes/ad-debug.php:98
+msgid "current query"
+msgstr "Consulta (query) actual"
+
+#: classes/ad-debug.php:98
+msgid "main query"
+msgstr "Consulta (query) principal"
+
+#: classes/ad-debug.php:118 classes/ad-debug.php:167 classes/ad-debug.php:169
+#: public/class-advanced-ads.php:618 admin/views/ad-group-list-ads.php:2
+msgid "Ad"
+msgstr "Anuncio"
+
+#: classes/ad-debug.php:121 public/class-advanced-ads.php:581
+msgctxt "ad group singular name"
+msgid "Ad Group"
+msgstr "Grupo de Anuncios"
+
+#: classes/ad-debug.php:128
+msgid "Placement"
+msgstr "Colocación"
+
+#: classes/ad-debug.php:152 admin/includes/class-meta-box.php:65
+msgid "Display Conditions"
+msgstr "Condiciones de Visualización"
+
+#: classes/ad-debug.php:239 admin/includes/class-meta-box.php:68
+msgid "Visitor Conditions"
+msgstr "Condiciones del Visitante"
+
+#: classes/ad_placements.php:31
+msgid "Manual Placement"
+msgstr "Colocación Manual"
+
+#: classes/ad_placements.php:32
+msgid "Manual placement to use as function or shortcode."
+msgstr "Colocación manual para usar como Función o Shortcode."
+
+#: classes/ad_placements.php:37
+msgid "Header Code"
+msgstr "Código de Encabezado"
+
+#: classes/ad_placements.php:38
+msgid ""
+"Injected in Header (before closing &lt;/head&gt; Tag, often not visible)."
+msgstr ""
+"Inyectar en el encabezado (antes de la etiqueta &lt;/head&gt;, que con "
+"frecuencia no es visible)."
+
+#: classes/ad_placements.php:42
+msgid "Footer Code"
+msgstr "Código del Pie de Página"
+
+#: classes/ad_placements.php:43
+msgid "Injected in Footer (before closing &lt;/body&gt; Tag)."
+msgstr ""
+"Inyectado en el Pie de Página (antes de la etiqueta de cierre del &lt;"
+"/body&gt;). "
+
+#: classes/ad_placements.php:47 admin/views/ad-info-top.php:9
+msgid "Before Content"
+msgstr "Antes del Contenido"
+
+#: classes/ad_placements.php:48
+msgid "Injected before the post content."
+msgstr "Inyectado antes del contenido de la entrada."
+
+#: classes/ad_placements.php:53 admin/views/ad-info-top.php:11
+msgid "After Content"
+msgstr "Después del Contenido"
+
+#: classes/ad_placements.php:54
+msgid "Injected after the post content."
+msgstr "Inyectado después del contenido de la entrada."
+
+#: classes/ad_placements.php:59 admin/views/ad-info-top.php:10
+msgid "Content"
+msgstr "Contenido"
+
+#: classes/ad_placements.php:65
+msgid "Sidebar Widget"
+msgstr "Widget de la Barra Lateral"
+
+#: classes/ad_placements.php:66
+msgid ""
+"Create a sidebar widget with an ad. Can be placed and used like any other "
+"widget."
+msgstr ""
+"Crear un widget de barra lateral con un anuncio. Puede ser colocado y "
+"utilizado como cualquier otro widget."
+
+#: classes/ad_placements.php:218
+#, php-format
+msgid "paragraph (%s)"
+msgstr "Párrafo (%s)"
+
+#: classes/ad_placements.php:219
+#, php-format
+msgid "paragraph without image (%s)"
+msgstr "Párrafo sin imagen (%s)"
+
+#: classes/ad_placements.php:220
+#, php-format
+msgid "headline 2 (%s)"
+msgstr "Encabezado 2 (%s)"
+
+#: classes/ad_placements.php:221
+#, php-format
+msgid "headline 3 (%s)"
+msgstr "Encabezado 3 (%s)"
+
+#: classes/ad_placements.php:222
+#, php-format
+msgid "headline 4 (%s)"
+msgstr "Encabezado 4 (%s)"
+
+#: classes/ad_type_content.php:35
+msgid "Rich Content"
+msgstr "Contenido Enriquecido"
+
+#: classes/ad_type_content.php:36
+msgid ""
+"The full content editor from WordPress with all features like shortcodes, "
+"image upload or styling, but also simple text/html mode for scripts and code."
+msgstr ""
+"El editor de contenido de WordPress completo con todas las características "
+"como shortcodes, carga de imágenes o estilos, y también un modo simple de "
+"texto/html para scripts y código."
+
+#: classes/ad_type_group.php:30 admin/views/ad-group-list-header.php:3
+msgid "Ad Group"
+msgstr "Grupo de Anuncios"
+
+#: classes/ad_type_group.php:31
+msgid ""
+"Choose an existing ad group. Use this type when you want to assign the same "
+"display and visitor conditions to all ads in that group."
+msgstr ""
+"Selecciona un grupo de anuncios existente. Utiliza este tipo cuando desees "
+"asignar las mismas condiciones de visualización y de visitante a todos los "
+"anuncios en ese grupo."
+
+#: classes/ad_type_group.php:84
+msgid "ad group"
+msgstr "Grupo de anuncios"
+
+#: classes/ad_type_plain.php:31
+msgid "Plain Text and Code"
+msgstr "Texto Simple y Código"
+
+#: classes/ad_type_plain.php:32
+msgid ""
+"Simple text editor without any filters. You might use it to display "
+"unfiltered content, php code or javascript. Shortcodes and other WordPress "
+"content field magic does not work here."
+msgstr ""
+"Editor de texto simple sin ningún filtro. Lo puedes usar para mostrar "
+"contenido no filtrado, código PHP o JavaScript. Sin embargo, los shortcodes "
+"y otro contenido del campo mágico de WordPress no funciona aquí."
+
+#: classes/ad_type_plain.php:52
+msgid "Insert plain text or code into this field."
+msgstr "Insertar texto simple o código en este campo."
+
+#: classes/ad_type_plain.php:89
+msgid "Execute PHP code (wrapped in <code>&lt;?php ?&gt;</code>)"
+msgstr "Ejecutar código PHP (enmarcado en <code>&lt;?php ?&gt;</code>)"
+
+#: classes/checks.php:244
+#, php-format
+msgid ""
+"Possible conflict between jQueryUI library, used by Advanced Ads and other "
+"libraries (probably <a href=\"%s\">Twitter Bootstrap</a>). This might lead "
+"to misfortunate formats in forms, but should not damage features."
+msgstr ""
+"Potencial conflicto entre la librería jQueryUI, usada por Advanced Ads, y "
+"otras librerías  (probablemente <a href=\"%s\">Twitter Bootstrap</a>). Esto "
+"puede crear formatos distorsionados en formularios, pero no debería dañar "
+"ninguna funcionalidad."
+
+#: classes/display-conditions.php:69
+msgid "post type"
+msgstr "Tipo de entrada"
+
+#: classes/display-conditions.php:70 includes/array_ad_conditions.php:40
+msgid "Choose the public post types on which to display the ad."
+msgstr "Selecciona los post types públicos en los cuales mostrar el anuncio."
+
+#: classes/display-conditions.php:76
+msgid "specific pages"
+msgstr "Páginas específicas"
+
+#: classes/display-conditions.php:77 includes/array_ad_conditions.php:58
+msgid ""
+"Choose on which individual posts, pages and public post type pages you want "
+"to display or hide ads."
+msgstr ""
+"Seleccionar en que entradas individuales, páginas y páginas públicas post "
+"type deseas mostrar o ocultar anuncios."
+
+#: classes/display-conditions.php:82
+msgid "general conditions"
+msgstr "Condiciones generales"
+
+#: classes/display-conditions.php:88
+msgid "author"
+msgstr "Autor"
+
+#: classes/display-conditions.php:120
+#, php-format
+msgid "archive: %s"
+msgstr "Archivo: %s"
+
+#: classes/display-conditions.php:237 classes/display-conditions.php:282
+#: classes/display-conditions.php:370
+msgctxt "Error message shown when no display condition term is selected"
+msgid "Please select some items."
+msgstr "Por favor, selecciona algunos elementos."
+
+#: classes/display-conditions.php:361
+msgctxt "display the terms search field on ad edit page"
+msgid "add more terms"
+msgstr "Añadir más términos "
+
+#: classes/display-conditions.php:363
+msgid "term name or id"
+msgstr "Nombre del término o ID"
+
+#: classes/display-conditions.php:424
+msgid "title or id"
+msgstr "Título o ID"
+
+#: classes/display-conditions.php:469 includes/array_ad_conditions.php:63
+msgid "Home Page"
+msgstr "Página de Inicio"
+
+#: classes/display-conditions.php:470 includes/array_ad_conditions.php:64
+msgid "show on Home page"
+msgstr "Mostrar en Página de Inicio"
+
+#: classes/display-conditions.php:474 includes/array_ad_conditions.php:68
+msgid "Singular Pages"
+msgstr "Páginas Singulares"
+
+#: classes/display-conditions.php:475 includes/array_ad_conditions.php:69
+msgid "show on singular pages/posts"
+msgstr "Mostrar en páginas/entradas singulares"
+
+#: classes/display-conditions.php:479 includes/array_ad_conditions.php:73
+msgid "Archive Pages"
+msgstr "Páginas de Archivo"
+
+#: classes/display-conditions.php:480 includes/array_ad_conditions.php:74
+msgid "show on any type of archive page (category, tag, author and date)"
+msgstr ""
+"Mostrar en cualquier tipo de página de archivo (categoría, etiqueta, autor y "
+"fecha)"
+
+#: classes/display-conditions.php:484 includes/array_ad_conditions.php:78
+msgid "Search Results"
+msgstr "Resultados de la Búsqueda"
+
+#: classes/display-conditions.php:485 includes/array_ad_conditions.php:79
+msgid "show on search result pages"
+msgstr "Mostrar en páginas de resultados de búsquedas"
+
+#: classes/display-conditions.php:489 includes/array_ad_conditions.php:83
+msgid "404 Page"
+msgstr "Páginas 404"
+
+#: classes/display-conditions.php:490 includes/array_ad_conditions.php:84
+msgid "show on 404 error page"
+msgstr "Mostrar en páginas de error 404"
+
+#: classes/display-conditions.php:494 includes/array_ad_conditions.php:88
+msgid "Attachment Pages"
+msgstr "Páginas Adjuntas"
+
+#: classes/display-conditions.php:495 includes/array_ad_conditions.php:89
+msgid "show on attachment pages"
+msgstr "Mostrar en páginas adjuntas"
+
+#: classes/display-conditions.php:499 includes/array_ad_conditions.php:93
+msgid "Secondary Queries"
+msgstr "Consultas (Queries) Secundarias "
+
+#: classes/display-conditions.php:500 includes/array_ad_conditions.php:94
+msgid "allow ads in secondary queries"
+msgstr "Permitir anuncios en consultas (queries) secundarias "
+
+#: classes/display-conditions.php:504
+msgid "Feed"
+msgstr "Feed"
+
+#: classes/display-conditions.php:505
+msgid "allow ads in Feed"
+msgstr "Permitir anuncios en el Feed"
+
+#: classes/EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Existe una nueva versión de %1$s disponible. %2$sVer versión %3$s "
+"Detalles%4$s."
+
+#: classes/EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Existe una nueva versión de %1$s disponible. %2$sVer versión %3$s "
+"Detalles%4$s o %5$Actualiza ahora%6$s."
+
+#: classes/frontend_checks.php:40
+msgid "Ad Health"
+msgstr "Salud del Anuncio"
+
+#: classes/frontend_checks.php:48
+msgid "jQuery not in header"
+msgstr "No hay jQuery en el encabezado"
+
+#: classes/frontend_checks.php:74
+msgid "Ad blocker enabled"
+msgstr "Ad blocker (Bloqueador de anuncios) habilitado"
+
+#: classes/frontend_checks.php:88
+#, php-format
+msgid "<em>%s</em> filter does not exist"
+msgstr "<em>%s</em> Filtro no existe"
+
+#: classes/frontend_checks.php:105
+msgid "Ads are disabled on this page"
+msgstr "Los anuncios están deshabilitados en esta página"
+
+#: classes/frontend_checks.php:119
+msgid "Ads are disabled in the content of this page"
+msgstr "Los anuncios están deshabilitados en el contenido de esta página"
+
+#: classes/frontend_checks.php:132
+msgid "the current post ID is 0 "
+msgstr "El actual ID de la entrada es 0"
+
+#: classes/frontend_checks.php:147
+msgid "Ads are disabled on 404 pages"
+msgstr "Los anuncios están deshabilitados en páginas 404"
+
+#: classes/frontend_checks.php:161
+msgid "Ads are disabled on non singular pages"
+msgstr "Los anuncios están deshabilitados en páginas no singulares"
+
+#: classes/frontend_checks.php:175
+#: modules/import-export/classes/XmlEncoder.php:61
+#: modules/import-export/classes/XmlEncoder.php:64
+#: modules/import-export/classes/XmlEncoder.php:193
+#: modules/import-export/classes/XmlEncoder.php:196
+#, php-format
+msgid "The %s extension(s) is not loaded"
+msgstr "La(s) %s extension(es) no se ha(n) cargado"
+
+#: classes/frontend_checks.php:191
+msgid "Everything is fine"
+msgstr "Todo está bien"
+
+#: classes/frontend_checks.php:202
+msgid "debug DFP ads"
+msgstr "Depurar anuncios DFP"
+
+#: classes/frontend_checks.php:213
+msgid "highlight ads"
+msgstr "Resaltar anuncios"
+
+#: classes/visitor-conditions.php:33
+msgid "Display ads only on mobile devices or hide them."
+msgstr "Mostrar anuncios solamente en dispositivos móviles u ocultarlos."
+
+#: classes/visitor-conditions.php:39
+msgid "logged in visitor"
+msgstr "Visitante Conectado"
+
+#: classes/visitor-conditions.php:40
+msgid "Whether the visitor has to be logged in or not in order to see the ads."
+msgstr "Si el visitante debe estar conectado o no para ver los anuncios."
+
+#: classes/visitor-conditions.php:92 classes/visitor-conditions.php:132
+msgid "Manual and Troubleshooting"
+msgstr "Manual y Solución de Problemas"
+
+#: classes/visitor-conditions.php:161
+msgid "equal"
+msgstr "Igual"
+
+#: classes/visitor-conditions.php:162
+msgid "equal or higher"
+msgstr "Igual o mayor"
+
+#: classes/visitor-conditions.php:163
+msgid "equal or lower"
+msgstr "Igual o menor"
+
+#: classes/visitor-conditions.php:194
+msgid "contains"
+msgstr "Contiene"
+
+#: classes/visitor-conditions.php:195
+msgid "starts with"
+msgstr "Comienza con"
+
+#: classes/visitor-conditions.php:196
+msgid "ends with"
+msgstr "Termina con"
+
+#: classes/visitor-conditions.php:197
+msgid "matches"
+msgstr "Equivale a"
+
+#: classes/visitor-conditions.php:198
+msgid "matches regex"
+msgstr "Equivale a regex"
+
+#: classes/visitor-conditions.php:199
+msgid "does not contain"
+msgstr "No contiene"
+
+#: classes/visitor-conditions.php:200
+msgid "does not start with"
+msgstr "No comienza con"
+
+#: classes/visitor-conditions.php:201
+msgid "does not end with"
+msgstr "No termina con"
+
+#: classes/visitor-conditions.php:202
+msgid "does not match"
+msgstr "No equivale a"
+
+#: classes/visitor-conditions.php:203
+msgid "does not match regex"
+msgstr "No equivale a regex"
+
+#: classes/widget.php:22
+msgid "Display Ads and Ad Groups."
+msgstr "Mostrar Anuncios y Grupos de Anuncios."
+
+#: classes/widget.php:67 admin/includes/class-shortcode-creator.php:82
+msgid "--empty--"
+msgstr "--Vacío--"
+
+#: classes/widget.php:69 admin/includes/class-menu.php:75
+#: admin/includes/class-shortcode-creator.php:98 admin/views/placements.php:18
+#: modules/import-export/views/page.php:25
+msgid "Placements"
+msgstr "Colocaciones"
+
+#: classes/widget.php:76 admin/includes/class-menu.php:70
+#: admin/includes/class-shortcode-creator.php:91
+#: admin/views/placements-item.php:4 admin/views/placements.php:187
+msgid "Ad Groups"
+msgstr "Grupos de Anuncios"
+
+#: classes/widget.php:83 public/class-advanced-ads.php:617
+#: admin/includes/class-menu.php:59 admin/includes/class-menu.php:59
+#: admin/includes/class-shortcode-creator.php:84
+#: admin/views/ad-group-list-form-row.php:68
+#: admin/views/ad-group-list-header.php:5 admin/views/placements-item.php:11
+#: admin/views/placements.php:194 modules/import-export/views/page.php:23
+msgid "Ads"
+msgstr "Anuncios"
+
+#: public/class-advanced-ads.php:317
+msgid "Advanced Ads Error following:"
+msgstr "El siguiente error de Advanced Ads:"
+
+#: public/class-advanced-ads.php:320
+#, php-format
+msgid "Advanced Ads Error: %s"
+msgstr "Error de Advanced Ads: %s"
+
+#: public/class-advanced-ads.php:580
+msgctxt "ad group general name"
+msgid "Ad Groups"
+msgstr "Grupos de Anuncios"
+
+#: public/class-advanced-ads.php:582
+msgid "Search Ad Groups"
+msgstr "Buscar Grupos de Anuncios"
+
+#: public/class-advanced-ads.php:583
+msgid "All Ad Groups"
+msgstr "Todos los Grupos de Anuncios"
+
+#: public/class-advanced-ads.php:584
+msgid "Parent Ad Groups"
+msgstr "Grupos Principales de Anuncios"
+
+#: public/class-advanced-ads.php:585
+msgid "Parent Ad Groups:"
+msgstr "Grupos Principales de Anuncios:"
+
+#: public/class-advanced-ads.php:586
+msgid "Edit Ad Group"
+msgstr "Editar Grupo de Anuncios"
+
+#: public/class-advanced-ads.php:587
+msgid "Update Ad Group"
+msgstr "Actualizar Grupo de Anuncios"
+
+#: public/class-advanced-ads.php:588
+msgid "Add New Ad Group"
+msgstr "Añadir Nuevo Grupo de Anuncios"
+
+#: public/class-advanced-ads.php:589
+msgid "New Ad Groups Name"
+msgstr "Nuevo Nombre para Grupos de Anuncios"
+
+#: public/class-advanced-ads.php:590 admin/includes/class-menu.php:70
+#: modules/import-export/views/page.php:24
+msgid "Groups"
+msgstr "Grupos"
+
+#: public/class-advanced-ads.php:591
+msgid "No Ad Group found"
+msgstr "Grupo de Anuncios no encontrado"
+
+#: public/class-advanced-ads.php:619 public/class-advanced-ads.php:623
+#: admin/includes/class-menu.php:65 admin/views/ad-group-list-ads.php:17
+msgid "New Ad"
+msgstr "Nuevo Anuncio"
+
+#: public/class-advanced-ads.php:620 admin/includes/class-menu.php:65
+msgid "Add New Ad"
+msgstr "Añadir Nuevo Anuncio"
+
+#: public/class-advanced-ads.php:621
+#: admin/includes/class-ad-groups-list.php:308
+#: modules/import-export/classes/import.php:144
+#: modules/import-export/classes/import.php:184
+#: modules/import-export/classes/import.php:560
+msgid "Edit"
+msgstr "Editar"
+
+#: public/class-advanced-ads.php:622
+msgid "Edit Ad"
+msgstr "Editar Anuncio"
+
+#: public/class-advanced-ads.php:624
+msgid "View"
+msgstr "Ver"
+
+#: public/class-advanced-ads.php:625
+msgid "View the Ad"
+msgstr "Ver el Anuncio"
+
+#: public/class-advanced-ads.php:626
+msgid "Search Ads"
+msgstr "Buscar Anuncios"
+
+#: public/class-advanced-ads.php:627
+msgid "No Ads found"
+msgstr "No se encontraron anuncios"
+
+#: public/class-advanced-ads.php:628
+msgid "No Ads found in Trash"
+msgstr "No se encontraron anuncios en la papelera"
+
+#: public/class-advanced-ads.php:629
+msgid "Parent Ad"
+msgstr "Anuncio Principal"
+
+#: public/class-advanced-ads.php:754
+msgctxt "label above ads"
+msgid "Advertisements"
+msgstr "Publicidad"
+
+#: admin/includes/class-ad-groups-list.php:164
+msgid "Ad weight"
+msgstr "Peso del Anuncio"
+
+#: admin/includes/class-ad-groups-list.php:172
+#: admin/views/ad-list-timing-column.php:4
+#, php-format
+msgid "starts %s"
+msgstr "Comienza %s"
+
+#: admin/includes/class-ad-groups-list.php:191
+#: admin/views/ad-list-timing-column.php:21
+#, php-format
+msgid "expires %s"
+msgstr "Expira %s"
+
+#: admin/includes/class-ad-groups-list.php:193
+#: admin/views/ad-list-timing-column.php:23
+#, php-format
+msgid "<strong>expired</strong> %s"
+msgstr "<strong>Expirado</strong> %s"
+
+#: admin/includes/class-ad-groups-list.php:212
+msgid "all published ads are displayed"
+msgstr "Todos los anuncios publicados están mostrados"
+
+#: admin/includes/class-ad-groups-list.php:214
+#, php-format
+msgid "up to %d ads displayed"
+msgstr "Hasta %d anuncios mostrados"
+
+#: admin/includes/class-ad-groups-list.php:217
+msgid "No ads assigned"
+msgstr "No hay anuncios asignados"
+
+#: admin/includes/class-ad-groups-list.php:284
+msgid "Random ads"
+msgstr "Anuncios aleatorios"
+
+#: admin/includes/class-ad-groups-list.php:285
+msgid "Display random ads based on ad weight"
+msgstr "Mostrar anuncios aleatorios basados en el peso del anuncio"
+
+#: admin/includes/class-ad-groups-list.php:288
+msgid "Ordered ads"
+msgstr "Anuncios ordenados"
+
+#: admin/includes/class-ad-groups-list.php:289
+msgid "Display ads with the highest ad weight first"
+msgstr "Mostrar de primero anuncios con el peso más alto"
+
+#: admin/includes/class-ad-groups-list.php:309
+msgid "Usage"
+msgstr "Uso"
+
+#: admin/includes/class-ad-groups-list.php:339
+#: admin/includes/class-ad-groups-list.php:389
+msgid "Invalid Ad Group"
+msgstr "Grupo de Anuncios Inválido"
+
+#: admin/includes/class-ad-groups-list.php:344
+#: admin/includes/class-ad-groups-list.php:394
+msgid "You don’t have permission to change the ad groups"
+msgstr "No tienes permiso para cambiar los Grupos de Anuncios"
+
+#: admin/includes/class-ad-type.php:97 admin/includes/class-ad-type.php:102
+msgid "Ad Details"
+msgstr "Detalles del Anuncio"
+
+#: admin/includes/class-ad-type.php:98 admin/includes/class-ad-type.php:103
+msgid "Ad Planning"
+msgstr "Planificación del Anuncio"
+
+#: admin/includes/class-ad-type.php:200
+msgid "expired"
+msgstr "Expirado"
+
+#: admin/includes/class-ad-type.php:201
+msgid "any expiry date"
+msgstr "Cualquier fecha de expiración"
+
+#: admin/includes/class-ad-type.php:202
+msgid "planned"
+msgstr "Planeado"
+
+#: admin/includes/class-ad-type.php:514 admin/includes/class-ad-type.php:515
+msgid "Ad updated."
+msgstr "Anuncio actualizado."
+
+#. translators: %s: date and time of the revision
+#: admin/includes/class-ad-type.php:517
+#, php-format
+msgid "Ad restored to revision from %s"
+msgstr "Anunció restaurado para revisión de %s"
+
+#: admin/includes/class-ad-type.php:518
+msgid "Ad published."
+msgstr "Anuncio publicado."
+
+#: admin/includes/class-ad-type.php:518
+#, php-format
+msgid ""
+"Ad not showing up? Take a look <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+"El anuncio no aparece? Consulta <a href=\"%s\" target=\"_blank\">aquí</a>"
+
+#: admin/includes/class-ad-type.php:519
+msgid "Ad saved."
+msgstr "Anuncio guardado."
+
+#: admin/includes/class-ad-type.php:520
+msgid "Ad submitted."
+msgstr "Anuncio enviado."
+
+#: admin/includes/class-ad-type.php:522
+#, php-format
+msgid "Ad scheduled for: <strong>%1$s</strong>."
+msgstr "Anuncio programado para: <strong>%1$s</strong>."
+
+#. translators: Publish box date format, see http://php.net/date
+#: admin/includes/class-ad-type.php:524
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: admin/includes/class-ad-type.php:526
+msgid "Ad draft updated."
+msgstr "Borrador del anuncio actualizado."
+
+#: admin/includes/class-licenses.php:101
+msgid "Error while trying to register the license. Please contact support."
+msgstr ""
+"Error al tratar de registrar la licencia. Por favor, contactar a soporte."
+
+#: admin/includes/class-licenses.php:106 admin/views/setting-license.php:49
+msgid "Please enter a valid license key"
+msgstr "Por favor, ingresa una llave de licencia válida"
+
+#: admin/includes/class-licenses.php:132
+msgid "License couldn’t be activated. Please try again later."
+msgstr "La licencia no pudo ser activada. Por favor, intenta de nuevo."
+
+#: admin/includes/class-licenses.php:147
+msgid "This is the bundle license key."
+msgstr "Ésta es la clave de licencia para todo el paquete."
+
+#: admin/includes/class-licenses.php:148
+msgid "This is not the correct key for this add-on."
+msgstr "Ésta no es la clave de licencia correcta para este add-on"
+
+#: admin/includes/class-licenses.php:149
+msgid "There are no activations left."
+msgstr "No existen más activaciones."
+
+#: admin/includes/class-licenses.php:218
+msgid "Error while trying to disable the license. Please contact support."
+msgstr ""
+"Error al tratar de deshabilitar la licencia. Por favor, contacta a soporte."
+
+#: admin/includes/class-licenses.php:245 admin/includes/class-licenses.php:263
+msgid "License couldn’t be deactivated. Please try again later."
+msgstr "La licencia no pudo ser desactivada.a soporte."
+
+#: admin/includes/class-menu.php:52
+msgid "Overview"
+msgstr "Visión General"
+
+#: admin/includes/class-menu.php:75
+msgid "Ad Placements"
+msgstr "Colocación de Anuncios"
+
+#: admin/includes/class-menu.php:79
+msgid "Advanced Ads Settings"
+msgstr "Configuraciones de Advanced Ads"
+
+#: admin/includes/class-menu.php:79
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: admin/includes/class-menu.php:173 admin/includes/class-menu.php:200
+msgid "Sorry, you are not allowed to access this feature."
+msgstr "Lo sentimos, no tienes permiso para acceder a esta función."
+
+#: admin/includes/class-menu.php:186
+msgid ""
+"You attempted to edit an ad group that doesn&#8217;t exist. Perhaps it was "
+"deleted?"
+msgstr ""
+"Intentaste editar un Grupo de Anuncios que no existe. Tal vez ha sido "
+"borrado?"
+
+#: admin/includes/class-meta-box.php:53
+msgid "Ad Type"
+msgstr "Tipo de Anuncio"
+
+#: admin/includes/class-meta-box.php:59
+msgid "Ad Parameters"
+msgstr "Parámetros del Anuncio"
+
+#: admin/includes/class-meta-box.php:62
+msgid "Layout / Output"
+msgstr "Diseño / Visualización"
+
+#: admin/includes/class-meta-box.php:126 admin/includes/class-meta-box.php:137
+#: admin/includes/class-meta-box.php:142 admin/includes/class-settings.php:446
+#: admin/views/ad-output-metabox.php:51
+msgid "Manual"
+msgstr "Manual"
+
+#: admin/includes/class-meta-box.php:136
+msgid "Video"
+msgstr "Video"
+
+#: admin/includes/class-meta-box.php:222
+msgid "Ad Settings"
+msgstr "Configuración del Anuncio"
+
+#: admin/includes/class-meta-box.php:324 admin/views/overview.php:23
+msgid "Ads Dashboard"
+msgstr "Panel de Anuncios"
+
+#: admin/includes/class-meta-box.php:336
+msgid "From the ad optimization universe"
+msgstr "Desde el universo de optimización de anuncios"
+
+#: admin/includes/class-meta-box.php:345
+msgid "Advanced Ads Tutorials"
+msgstr "Tutoriales de Advanced Ads"
+
+#: admin/includes/class-meta-box.php:357
+#, php-format
+msgid "%d ads – <a href=\"%s\">manage</a> - <a href=\"%s\">new</a>"
+msgstr "%d Anuncios – <a href=\"%s\">Gestionar</a> - <a href=\"%s\">Nuevo</a>"
+
+#: admin/includes/class-meta-box.php:369
+msgid "plugin manual and homepage"
+msgstr "Manual del plugin y página de inicio"
+
+#: admin/includes/class-meta-box.php:376
+msgid "Get the tutorial via email"
+msgstr "Obtener el tutorial vía correo electrónico"
+
+#: admin/includes/class-meta-box.php:383
+msgid "Get AdSense tips via email"
+msgstr "Obtener tips de AdSense vía correo electrónico"
+
+#: admin/includes/class-notices.php:408
+#, php-format
+msgid ""
+"You don’t seem to have an email address. Please use <a href=\"%s\" "
+"target=\"_blank\">this form</a> to sign up."
+msgstr ""
+"Parece ser que no tienes una dirección de correo electrónico. Por favor, usa "
+"<a href=\"%s\" target=\"_blank\">este formulario</a> para registrarte."
+
+#: admin/includes/class-notices.php:426
+msgid ""
+"How embarrassing. The email server seems to be down. Please try again later."
+msgstr ""
+"Esto es penoso. El servidor de correos parece estar caído. Por favor, "
+"inténtalo más tarde."
+
+#: admin/includes/class-notices.php:431
+#, php-format
+msgid ""
+"Please check your email (%s) for the confirmation message. If you didn’t "
+"receive one or want to use another email address then please use <a "
+"href=\"%s\" target=\"_blank\">this form</a> to sign up."
+msgstr ""
+"Por favor, revisa tu correo (%s) para el mensaje de confirmación. Si no "
+"recibiste uno o deseas utilizar otra dirección de correo, entonces por favor "
+"usa <a href=\"%s\" target=\"_blank\">este formulario</a> para registrarte."
+
+#: admin/includes/class-overview-widgets.php:45
+msgid "Tips and Tutorials"
+msgstr "Tips y Tutoriales"
+
+#: admin/includes/class-overview-widgets.php:47
+msgid "Setup and Optimization Help"
+msgstr "Ayuda de Optimización y Configuración"
+
+#: admin/includes/class-overview-widgets.php:49
+msgid "Manual and Support"
+msgstr "Manual y Soporte"
+
+#: admin/includes/class-overview-widgets.php:53
+msgid "Advanced Ads Pro"
+msgstr "Advanced Ads Pro"
+
+#: admin/includes/class-overview-widgets.php:55
+msgid "Tracking and Stats"
+msgstr "Estadísticas y Rastreo"
+
+#: admin/includes/class-overview-widgets.php:57
+msgid "Responsive and Mobile ads"
+msgstr "Anuncios Responsables y Móviles"
+
+#: admin/includes/class-overview-widgets.php:59
+msgid "Geo Targeting"
+msgstr "Geo Locación"
+
+#: admin/includes/class-overview-widgets.php:61
+msgid "Sticky ads"
+msgstr "Anuncios Pegajosos (sticky)"
+
+#: admin/includes/class-overview-widgets.php:63
+msgid "PopUps and Layers"
+msgstr "PopUps y Ventanas Emergentes"
+
+#: admin/includes/class-overview-widgets.php:65
+msgid "Ad Slider"
+msgstr "Slider de Anuncios"
+
+#: admin/includes/class-overview-widgets.php:67
+msgid "Selling Ads"
+msgstr "Vender Anuncios"
+
+#: admin/includes/class-overview-widgets.php:86
+msgid "Get 2 <strong>free add-ons</strong> for joining the newsletter."
+msgstr ""
+"Obtén <strong>2 add-ons gratis</strong> por suscribirte al boletín de "
+"noticias."
+
+#: admin/includes/class-overview-widgets.php:87
+msgid "Join now"
+msgstr "Suscríbete Ahora"
+
+#: admin/includes/class-overview-widgets.php:94
+msgid ""
+"Learn more about how and <strong>how much you can earn with AdSense</strong> "
+"and Advanced Ads from the dedicated newsletter group."
+msgstr ""
+"Aprende más acerca de cómo y <strong>cuánto puedes ganar con AdSense</strong>"
+" y Advanced Ads con nuestro grupo de noticias dedicado."
+
+#: admin/includes/class-overview-widgets.php:95 admin/includes/notices.php:30
+#: admin/views/notices/inline.php:3 admin/views/notices/subscribe.php:3
+msgid "Subscribe me now"
+msgstr "Suscribirme Ahora"
+
+#: admin/includes/class-overview-widgets.php:102
+msgid "Get the first steps and more tutorials to your inbox."
+msgstr "Obtén los primeros pasos y más tutoriales en tu correo."
+
+#: admin/includes/class-overview-widgets.php:103
+msgid "Send it now"
+msgstr "Enviarlo Ahora"
+
+#: admin/includes/class-overview-widgets.php:126
+msgid "Create your first ad"
+msgstr "Crea Tu Primer Anuncio"
+
+#: admin/includes/class-overview-widgets.php:129
+msgid ""
+"Ad Groups contain ads and are currently used to rotate multiple ads on a "
+"single spot."
+msgstr ""
+"Los Grupos de Anuncios contienen anuncios y se usan actualmente para rotar "
+"múltiples anuncios en un mismo lugar."
+
+#: admin/includes/class-overview-widgets.php:131
+msgid "Create your first group"
+msgstr "Crea Tu Primer Grupo"
+
+#: admin/includes/class-overview-widgets.php:134
+msgid ""
+"Ad Placements are the best way to manage where to display ads and groups."
+msgstr ""
+"Las Colocaciones de Anuncios son la mejor manera para gestionar en donde "
+"mostrar anuncios y grupos."
+
+#: admin/includes/class-overview-widgets.php:136
+msgid "Create your first placement"
+msgstr "Crea Tu Primera Colocación"
+
+#: admin/includes/class-overview-widgets.php:141
+msgid "Next steps"
+msgstr "Próximos Pasos"
+
+#: admin/includes/class-overview-widgets.php:153
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Manual</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Manual</a>"
+
+#: admin/includes/class-overview-widgets.php:154
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">FAQ and Support</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">FAQ (Preguntas más frecuentes) y soporte</a>"
+
+#: admin/includes/class-overview-widgets.php:155
+#, php-format
+msgid "Vote for a <a href=\"%s\" target=\"_blank\">feature</a>"
+msgstr "Vota por una <a href=\"%s\" target=\"_blank\">funcionalidad</a>"
+
+#: admin/includes/class-overview-widgets.php:156
+#, php-format
+msgid ""
+"Thank the developer with a &#9733;&#9733;&#9733;&#9733;&#9733; review on <a "
+"href=\"%s\" target=\"_blank\">wordpress.org</a>"
+msgstr ""
+"Agradece al desarrollador con una &#9733;&#9733;&#9733;&#9733;&#9733; "
+"evaluación del plugin en <a href=\"%s\" target=\"_blank\">wordpress.org</a>"
+
+#: admin/includes/class-overview-widgets.php:165
+msgid ""
+"Need help to set up and optimize your ads? Need custom coding on your site? "
+"Ask me for a quote."
+msgstr ""
+"Necesitas ayuda configurando y optimizando tus anuncios? Necesitas "
+"programación personalizada para tu sitio? Contáctame para una cotización."
+
+#: admin/includes/class-overview-widgets.php:166
+#, php-format
+msgid "Help with ads on %s"
+msgstr "Ayuda con anuncios en %s"
+
+#: admin/includes/class-overview-widgets.php:167
+msgid "Get an offer"
+msgstr "Obtén una Cotización"
+
+#: admin/includes/class-overview-widgets.php:175
+msgid "Ad management for advanced websites."
+msgstr "Gestión de anuncios para websites avanzados."
+
+#: admin/includes/class-overview-widgets.php:176
+msgid "Cache-busting"
+msgstr "Almacenamiento-en-caché"
+
+#: admin/includes/class-overview-widgets.php:177
+msgid "Advanced visitor conditions"
+msgstr "Condiciones Avanzadas del Visitante"
+
+#: admin/includes/class-overview-widgets.php:178
+msgid "Flash ads with fallback"
+msgstr "Anuncios Flash con Retroceso (fallback)"
+
+#: admin/includes/class-overview-widgets.php:180
+msgid "Get Pro"
+msgstr "Obtener Pro"
+
+#: admin/includes/class-overview-widgets.php:188
+msgid "Track the impressions of and clicks on your ads."
+msgstr "Rastrear las impresiones y los clics en tus anuncios."
+
+#: admin/includes/class-overview-widgets.php:189
+msgid "2 methods to count impressions"
+msgstr "Dos métodos para contar las impresiones"
+
+#: admin/includes/class-overview-widgets.php:190
+msgid "beautiful stats for all or single ads"
+msgstr ""
+"Hermosas estadísticas para todos los anuncios o para anuncios individuales"
+
+#: admin/includes/class-overview-widgets.php:191
+msgid "group stats by day, week or month"
+msgstr "Agrupar estadísticas por día, semana o mes"
+
+#: admin/includes/class-overview-widgets.php:193
+msgid "Get the Tracking add-on"
+msgstr "Obtener el add-on de Rastreo"
+
+#: admin/includes/class-overview-widgets.php:201
+msgid "Display ads based on the size of your visitor’s browser or device."
+msgstr "Mostrar anuncios en base al tamaño del navegador del visitante."
+
+#: admin/includes/class-overview-widgets.php:202
+msgid "set a range (from … to …) pixels for the browser size"
+msgstr "Definir un rango (de… a…) píxeles para el tamaño del navegador"
+
+#: admin/includes/class-overview-widgets.php:203
+msgid "set custom sizes for AdSense responsive ads"
+msgstr ""
+"Definir tamaños personalizados para los anuncios responsables de AdSense"
+
+#: admin/includes/class-overview-widgets.php:204
+msgid "list all ads by their responsive settings"
+msgstr "Listar todos los anuncios por sus configuraciones responsables"
+
+#: admin/includes/class-overview-widgets.php:206
+msgid "Get the Responsive add-on"
+msgstr "Obtener el add-on de diseño responsable"
+
+#: admin/includes/class-overview-widgets.php:214
+msgid "Target visitors by their geo location."
+msgstr "Filtrar usuarios por su locación geográfica."
+
+#: admin/includes/class-overview-widgets.php:216
+msgid "Get the Geo Targeting add-on"
+msgstr "Obtén el add-on de Geo Locación"
+
+#: admin/includes/class-overview-widgets.php:224
+msgid ""
+"Fix ads to the browser while users are scrolling and create best performing "
+"anchor ads."
+msgstr ""
+"Fijar anuncios al navegador mientras los usuarios están desplazándose y "
+"crear los anuncios de anclaje con mejor rendimiento."
+
+#: admin/includes/class-overview-widgets.php:225
+msgid "position ads that don’t scroll with the screen"
+msgstr "Posicionar anuncios que no se desplacen con la pantalla"
+
+#: admin/includes/class-overview-widgets.php:226
+msgid "build anchor ads not only on mobile devices"
+msgstr "Construir anuncios de anclaje no solamente en dispositivos móviles"
+
+#: admin/includes/class-overview-widgets.php:228
+msgid "Get the Sticky add-on"
+msgstr "Obtener el add-on de Anuncios Pegajosos (sticky)"
+
+#: admin/includes/class-overview-widgets.php:236
+msgid "Display content and ads in layers and popups on custom events."
+msgstr ""
+"Mostrar contenido y anuncios en Ventanas Emergentes y PopUps en eventos "
+"personalizados."
+
+#: admin/includes/class-overview-widgets.php:237
+msgid "display a popup after a user interaction like scrolling"
+msgstr ""
+"Mostrar un PopUp después de una interacción de usuario (como desplazarse)"
+
+#: admin/includes/class-overview-widgets.php:238
+msgid "optional background overlay"
+msgstr "Capa de fondo opcional"
+
+#: admin/includes/class-overview-widgets.php:239
+msgid "allow users to close the popup"
+msgstr ""
+"Permitir a los usuarios cerrar un PopUp\n"
+
+#: admin/includes/class-overview-widgets.php:241
+msgid "Get the PopUp and Layer add-on"
+msgstr "Obtener el add-on de PopUps y Ventanas Emergentes"
+
+#: admin/includes/class-overview-widgets.php:249
+msgid "Create a beautiful and simple slider from your ads."
+msgstr "Crear un lindo y simple Slider para tus anuncios."
+
+#: admin/includes/class-overview-widgets.php:251
+msgid "Get the Slider add-on"
+msgstr "Obtener el add-on del Slider"
+
+#: admin/includes/class-overview-widgets.php:258
+msgid ""
+"Let advertisers purchase ad space directly on the frontend of your site."
+msgstr ""
+"Permitir que los anunciantes compren espacio de publicidad directamente en "
+"el frente del sitio."
+
+#: admin/includes/class-overview-widgets.php:260
+msgid "Get the Selling Ads add-on"
+msgstr "Obtener el add-on para vender anuncios"
+
+#: admin/includes/class-settings.php:47 admin/views/settings.php:12
+msgid "General"
+msgstr "General"
+
+#: admin/includes/class-settings.php:59 admin/includes/class-settings.php:199
+msgid "Licenses"
+msgstr "Licencias"
+
+#: admin/includes/class-settings.php:70
+msgid "Disable ads"
+msgstr "Deshabilitar anuncios"
+
+#: admin/includes/class-settings.php:78
+msgid "Hide ads for logged in users"
+msgstr "Ocultar anuncios para usuarios que inicien sesión"
+
+#: admin/includes/class-settings.php:86
+msgid "Use advanced JavaScript"
+msgstr "Utilizar JavaScript avanzado"
+
+#: admin/includes/class-settings.php:94
+msgid "Unlimited ad injection"
+msgstr "Inyección ilimitada de anuncios"
+
+#: admin/includes/class-settings.php:102
+msgid "Priority of content injection filter"
+msgstr "Prioridad de filtro de inyección de contenido"
+
+#: admin/includes/class-settings.php:118
+msgid "Hide ads from bots"
+msgstr "Ocultar anuncios de bots"
+
+#: admin/includes/class-settings.php:126
+msgid "Disable notices"
+msgstr "Deshabilitar notificaciones"
+
+#: admin/includes/class-settings.php:134
+msgid "ID prefix"
+msgstr "Prefijo ID"
+
+#: admin/includes/class-settings.php:142
+msgid "Remove Widget ID"
+msgstr "Remover Widget ID"
+
+#: admin/includes/class-settings.php:150
+msgid "Allow editors to manage ads"
+msgstr "Permitir a editores gestionar anuncios"
+
+#: admin/includes/class-settings.php:158
+msgid "Ad label"
+msgstr "Etiqueta del anuncio"
+
+#: admin/includes/class-settings.php:168
+msgid "Delete data on uninstall"
+msgstr "Borrar la información al desinstalar"
+
+#: admin/includes/class-settings.php:255
+msgid "(display to all)"
+msgstr "(mostrar a todos)"
+
+#: admin/includes/class-settings.php:256
+msgid "Subscriber"
+msgstr "Suscriptor"
+
+#: admin/includes/class-settings.php:257
+msgid "Contributor"
+msgstr "Contribuyente"
+
+#: admin/includes/class-settings.php:258
+msgid "Author"
+msgstr "Autor"
+
+#: admin/includes/class-settings.php:259
+msgid "Editor"
+msgstr "Editor"
+
+#: admin/includes/class-settings.php:260
+msgid "Admin"
+msgstr "Administrador"
+
+#: admin/includes/class-settings.php:268
+msgid "Choose the lowest role a user must have in order to not see any ads."
+msgstr ""
+"Elige el rol mínimo que un usuario debe tener para no ver ningún anuncio."
+
+#: admin/includes/class-settings.php:282
+msgid ""
+"<strong>notice: </strong>the file is currently enabled by an add-on that "
+"needs it."
+msgstr ""
+"<strong>Notificación: </strong>el archivo se encuentra activado por un add-"
+"on que lo necesita."
+
+#: admin/includes/class-settings.php:285
+#, php-format
+msgid ""
+"Enable advanced JavaScript functions (<a href=\"%s\" target=\"_blank\">"
+"here</a>). Some features and add-ons might override this setting if they "
+"need features from this file."
+msgstr ""
+"Habilitar funciones avanzadas de JavaScript (<a href=\"%s\" "
+"target=\"_blank\">aquí</a>). Algunas características y add-ons pueden anular "
+"esta configuración si necesitan funciones de este archivo."
+
+#: admin/includes/class-settings.php:321
+msgid ""
+"Please check your post content. A priority of 10 and below might cause "
+"issues (wpautop function might run twice)."
+msgstr ""
+"Por favor, revisa el contenido de tu entrada. Una prioridad de 10 o menos "
+"puede causar problemas (la función wpautop puede ejecutarse dos veces)."
+
+#: admin/includes/class-settings.php:323
+msgid ""
+"Play with this value in order to change the priority of the injected ads "
+"compared to other auto injected elements in the post content."
+msgstr ""
+"Juega con este valor para cambiar la prioridad de los anuncios inyectados en "
+"comparación con otros elementos auto inyectados en el contenido de la "
+"entrada."
+
+#: admin/includes/class-settings.php:350
+#, php-format
+msgid ""
+"Hide ads from crawlers, bots and empty user agents. Also prevents counting "
+"impressions for bots when using the <a href=\"%s\" target=\"_blank\">"
+"Tracking Add-On</a>."
+msgstr ""
+"Ocultar los anuncios de rastreadores (crawlers), bots y usuarios de agente "
+"vacíos. También previene contar impresiones de bots cuando se usa <a "
+"href=\"%s\" target=\"_blank\">El Add-On de Rastreo</a>."
+
+#: admin/includes/class-settings.php:351
+msgid ""
+"Disabling this option only makes sense if your ads contain content you want "
+"to display to bots (like search engines) or your site is cached and bots "
+"could create a cached version without the ads."
+msgstr ""
+"Deshabilitar esta opción sólo tiene sentido si tus anuncios contienen "
+"contenido que deseas mostrar a los bots (como motores de búsqueda) o tu "
+"sitio esta cacheado y los bots pueden crear una versión cacheada sin los "
+"anuncios."
+
+#: admin/includes/class-settings.php:364
+msgid ""
+"Disable internal notices like tips, tutorials, email newsletters and update "
+"notices. Disabling notices is recommended if you run multiple blogs with "
+"Advanced Ads already."
+msgstr ""
+"Deshabilitar notificaciones internas como tips, tutoriales, boletines de "
+"noticias y notificaciones de actualizaciones. Deshabilitar las "
+"notificaciones es recomendado si ya administras múltiples sitios con "
+"Advanced Ads."
+
+#: admin/includes/class-settings.php:381
+msgid ""
+"Prefix of class or id attributes in the frontend. Change it if you don’t "
+"want <strong>ad blockers</strong> to mark these blocks as ads.<br/>You might "
+"need to <strong>rewrite css rules afterwards</strong>."
+msgstr ""
+"Prefijo de clase o atributos ID en el frente del sitio. Cámbialo si no "
+"quieres que los <strong>bloqueadores de anuncios</strong> marquen estos "
+"bloques como anuncios. <br/>Podrías necesitar <strong>reescribir las reglas "
+"css después</strong>."
+
+#: admin/includes/class-settings.php:402
+msgid ""
+"Remove the ID attribute from widgets in order to not make them an easy "
+"target of ad blockers."
+msgstr ""
+"Remover el atributo ID de los widgets para no hacerlos un blanco fácil de "
+"los bloqueadores de anuncios."
+
+#: admin/includes/class-settings.php:405
+msgid ""
+"If checked, the Advanced Ads Widget will not work with the fixed option of "
+"the <strong>Q2W3 Fixed Widget</strong> plugin."
+msgstr ""
+"Si chequeada, el Widget de Advanced Ads no funcionará con la opción fija del "
+"plugin <strong>Q2W3 Widget Fijo</strong>."
+
+#: admin/includes/class-settings.php:427
+msgid "Allow editors to also manage and publish ads."
+msgstr "Permitir también que los editores gestionen y publiquen anuncios."
+
+#: admin/includes/class-settings.php:428
+#, php-format
+msgid ""
+"You can assign different ad-related roles on a user basis with <a "
+"href=\"%s\" target=\"_blank\">Advanced Ads Pro</a>."
+msgstr ""
+"Puedes asignar (por cada usuario) diferentes roles relacionados al anuncio "
+"con <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a>."
+
+#: admin/includes/class-settings.php:446
+msgid "Displayed above ads."
+msgstr "Anuncios de arriba mostrados."
+
+#: admin/includes/class-settings.php:460
+msgid "Clean up all data related to Advanced Ads when removing the plugin."
+msgstr ""
+"Limpiar toda la información relacionada con Advanced Ads al remover este "
+"plugin."
+
+#: admin/includes/notices.php:15
+msgid ""
+"Thank you for activating <strong>Advanced Ads</strong>. Would you like to "
+"receive the first steps via email?"
+msgstr ""
+"Gracias por activar <strong>Advanced Ads</strong>. Deseas recibir los "
+"primeros pasos por correo electrónico?"
+
+#: admin/includes/notices.php:16
+msgid "Yes, send it"
+msgstr "Si, envíalo"
+
+#: admin/includes/notices.php:22
+msgid ""
+"Thank you for using <strong>Advanced Ads</strong>. Stay informed and receive "
+"<strong>2 free add-ons</strong> for joining the newsletter."
+msgstr ""
+"Gracias por usar <strong>Advanced Ads</strong>. Mántente informado y recibe "
+"<strong>2 add-ons gratis</strong> por unirte a nuestro boletín de noticias."
+
+#: admin/includes/notices.php:23
+msgid "Add me now"
+msgstr "Añadirme Ahora"
+
+#: admin/includes/notices.php:29
+msgid ""
+"Learn more about how and <strong>how much you can earn with AdSense</strong> "
+"and Advanced Ads from my dedicated newsletter."
+msgstr ""
+"Aprende más sobre cómo y <strong>cuánto puedes ganar con AdSense</strong> y "
+"Advanced Ads con mi boletín de noticias dedicado."
+
+#: admin/includes/notices.php:41
+msgid ""
+"One or more license keys for <strong>Advanced Ads add-ons are invalid or "
+"missing</strong>."
+msgstr ""
+"Una o más llaves de licencia para los <strong>add-ons de Advanced Ads no se "
+"encuentran o son inválidos</strong>."
+
+#: admin/includes/notices.php:41
+#, php-format
+msgid "Please add valid license keys <a href=\"%s\">here</a>."
+msgstr "Por favor, añade llaves de licencia válidas <a href=\"%s\">aquí</a>."
+
+#: admin/includes/notices.php:47
+#, php-format
+msgid ""
+"<strong>Advanced Ads</strong> license(s) expired. Support and updates are "
+"disabled. Please visit <a href=\"%s\"> the license page</a> for more "
+"information."
+msgstr ""
+"Licencia (s) de <strong>Advanced Ads</strong> expirada. El soporte y las "
+"actualizaciones están deshabilitadas. Por favor, visita <a href=\"%s\"> la "
+"página de licencias</a> para más información."
+
+#: admin/includes/notices.php:53
+#, php-format
+msgid ""
+"<img src=\"%3$s\" alt=\"Thomas\" width=\"80\" height=\"115\" class=\"advads-"
+"review-image\"/>You are using <strong>Advanced Ads</strong> for some time "
+"now. Thank you! If you need my help then please visit the <a href=\"%1$s\" "
+"target=\"_blank\">Support page</a> to get free help.</p><h3>Thanks for your "
+"Review</h3><p>If you share my passion and find Advanced Ads useful then "
+"please <a href=\"%2$s\" target=\"_blank\">leave a 5-star review on wordpress."
+"org</a>.</p><p><em>Thomas</em>"
+msgstr ""
+"<img src=\"%3$s\" alt=\"Thomas\" width=\"80\" height=\"115\" class=\"advads-"
+"review-image\"/>Llevas utilizando <strong>Advanced Ads</strong> por un buen "
+"tiempo. Muchas gracias! Si necesitas mi ayuda, por favor visita la <a "
+"href=\"%1$s\" target=\"_blank\">Página de Soporte</a> para obtener ayuda "
+"gratis.</p><h3>Gracias por tu Evaluación</h3><p>Si compartes mi pasión y "
+"encuentras Advanced Ads util, entonces por favor <a href=\"%2$s\" "
+"target=\"_blank\">déja una evaluación de 5-estrellas en wordpress.org</a>."
+"</p><p><em>Thomas</em>"
+
+#: admin/includes/notices.php:59
+#, php-format
+msgid ""
+"Some assets were changed. Please <strong>rebuild the asset folder</strong> "
+"in the <a href=\"%s\">Advanced Ads settings</a> to update the ad blocker "
+"disguise."
+msgstr ""
+"Algunos archivos fueron cambiados. Por favor,<strong>reconstruye el folder "
+"de archivos</strong> en las configuraciones de <a href=\"%s\">Advanced "
+"Ads</a> para actualizar el disfraz de Ad Blocker."
+
+#: admin/includes/shortcode-creator-l10n.php:10
+msgctxt "shortcode creator"
+msgid "Add an ad"
+msgstr "Agrega un Anuncio"
+
+#: admin/includes/shortcode-creator-l10n.php:11
+msgctxt "shortcode creator"
+msgid "Add shortcode"
+msgstr "Agrega un Shortcode "
+
+#: admin/includes/shortcode-creator-l10n.php:12
+msgctxt "shortcode creator"
+msgid "Cancel"
+msgstr "Cancelar "
+
+#: admin/views/ad-display-metabox.php:22
+#: admin/views/notices/jqueryui_error.php:2
+#, php-format
+msgid ""
+"There might be a problem with layouts and scripts in your dashboard. Please "
+"check <a href=\"%s\" target=\"_blank\">this article to learn more</a>."
+msgstr ""
+"Puede existir un problema con ciertas configuraciones y scripts en el panel "
+"de control. Por favor, chequea <a href=\"%s\" target=\"_blank\">este "
+"artículo para obtener mayor información</a>."
+
+#: admin/views/ad-display-metabox.php:59
+msgid "Forced to OR."
+msgstr "Forzado a O."
+
+#: admin/views/ad-display-metabox.php:60 admin/views/ad-info-top.php:86
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:66
+msgid "manual"
+msgstr "Manual"
+
+#: admin/views/ad-display-metabox.php:76
+msgid "If you want to display the ad everywhere, don't do anything here. "
+msgstr "Si quieres mostrar el anuncio en todas partes, no hagas nada aquí."
+
+#: admin/views/ad-display-metabox.php:80 admin/views/ad-visitor-metabox.php:54
+msgid "New condition"
+msgstr "Nueva Condición"
+
+#: admin/views/ad-display-metabox.php:83 admin/views/ad-visitor-metabox.php:57
+msgid "-- choose a condition --"
+msgstr "-- Selecciona una Condición --"
+
+#: admin/views/ad-display-metabox.php:88 admin/views/ad-group-list-ads.php:24
+#: admin/views/ad-visitor-metabox.php:62
+msgid "add"
+msgstr "Añadir"
+
+#: admin/views/ad-group-edit.php:40
+msgid ""
+"An id-like string with only letters in lower case, numbers, and hyphens."
+msgstr ""
+"Una cadena tipo-id con solamente letras en minúscula, números, y guiones."
+
+#: admin/views/ad-group-edit.php:57
+msgid "Create new Ad Group"
+msgstr "Crear un nuevo Grupo de Anuncios"
+
+#: admin/views/ad-group-edit.php:59
+msgid "Update"
+msgstr "Actualizar"
+
+#: admin/views/ad-group-list-ads.php:3
+msgid "weight"
+msgstr "Peso"
+
+#: admin/views/ad-group-list-form-row.php:12 admin/views/placements.php:24
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/views/ad-group-list-form-row.php:41 admin/views/placements.php:23
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:55
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/views/ad-group-list-form-row.php:51
+msgctxt "option to display all ads in an ad groups"
+msgid "all"
+msgstr "Todos"
+
+#: admin/views/ad-group-list-form-row.php:59
+msgid "Number of ads that are visible at the same time"
+msgstr "Número de anuncios que son visibles al mismo tiempo"
+
+#: admin/views/ad-group-list-header.php:4
+msgid "Details"
+msgstr "Detalles"
+
+#: admin/views/ad-group-list-row.php:8 admin/views/ad-info.php:3
+#: admin/views/placements.php:65
+msgid "shortcode"
+msgstr "Shortcode:"
+
+#: admin/views/ad-group-list-row.php:11
+msgid "template"
+msgstr "Plantilla"
+
+#: admin/views/ad-group-list-row.php:14
+#, php-format
+msgid ""
+"Learn more about using groups in the <a href=\"%s\" target=\"_blank\">"
+"manual</a>."
+msgstr ""
+"Aprende más sobre el uso de grupos en el <a href=\"%s\" target=\"_blank\">"
+"manual</a>."
+
+#: admin/views/ad-group-list-row.php:19
+#, php-format
+msgid "Type: %s"
+msgstr "Tipo: %s"
+
+#: admin/views/ad-group-list-row.php:20
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: admin/views/ad-group.php:29
+msgid "Ad Groups successfully updated"
+msgstr "Grupos de Anuncios actualizados exitosamente"
+
+#: admin/views/ad-group.php:59
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Resultados de la búsqueda para  &#8220;%s&#8221;"
+
+#: admin/views/ad-group.php:68
+msgid ""
+"Ad Groups are a very flexible method to bundle ads. You can use them to "
+"display random ads in the frontend or run split tests, but also just for "
+"informational purposes. Not only can an Ad Groups have multiple ads, but an "
+"ad can belong to multiple ad groups."
+msgstr ""
+"Los Grupos de Anuncios son un método muy flexible para reunir anuncios. Los "
+"puedes usar para mostrar anuncios aleatorios en el frente de tu sitio o para "
+"ejecutar evaluaciones comparativas (tipo split tests), pero también sirven "
+"con propósitos informativos. Los Grupos de Anuncios no solamente pueden "
+"tener múltiples anuncios, sino que también, un anuncio puede pertenecer a "
+"múltiples grupos."
+
+#: admin/views/ad-group.php:96
+msgid "Update Groups"
+msgstr "Actualizar Grupos"
+
+#: admin/views/ad-info-after-textarea.php:5
+msgid ""
+"The code of this ad might not work properly with the <em>Content</em> "
+"placement."
+msgstr ""
+"El código de este anuncio puede no funcionar apropiadamente con el <em>"
+"Contenido</em>de la colocación."
+
+#: admin/views/ad-info-after-textarea.php:6
+#, php-format
+msgid "Reach out to <a href=\"%s\">support</a> to get help."
+msgstr "Contacta a <a href=\"%s\">Soporte</a> para obtener ayuda."
+
+#: admin/views/ad-info-bottom.php:2
+msgctxt "wizard navigation"
+msgid "previous"
+msgstr "Anterior"
+
+#: admin/views/ad-info-bottom.php:3
+msgctxt "wizard navigation"
+msgid "save"
+msgstr "Guardar"
+
+#: admin/views/ad-info-bottom.php:4
+msgctxt "wizard navigation"
+msgid "next"
+msgstr "Siguiente"
+
+#: admin/views/ad-info-bottom.php:5 admin/views/ad-info-top.php:85
+msgid "Stop Wizard and show all options"
+msgstr "Detener el Asistente y mostrar todas las opciones"
+
+#: admin/views/ad-info-top.php:5
+#, php-format
+msgid ""
+"Congratulations! Your ad is now visible in the frontend."
+msgstr ""
+"Felicitaciones! Tu anuncio es ahora visible desde el frente del sitio."
+
+#: admin/views/ad-info-top.php:7
+msgid "Where do you want to display the ad?"
+msgstr "Donde deseas mostrar el anuncio?"
+
+#: admin/views/ad-info-top.php:8
+msgid "New placement"
+msgstr "Nueva colocación"
+
+#: admin/views/ad-info-top.php:12
+msgid "Manage Sidebar"
+msgstr "Administrar Barra Lateral"
+
+#: admin/views/ad-info-top.php:15
+msgid "Show Pro Places"
+msgstr "Mostrar Colocaciones Pro"
+
+#: admin/views/ad-info-top.php:19
+msgid "Show Sticky Places"
+msgstr "Mostrar Colocaciones Pegajosas"
+
+#: admin/views/ad-info-top.php:23
+msgid "Show PopUp"
+msgstr "Mostrar PopUp"
+
+#: admin/views/ad-info-top.php:48
+msgid "Existing placement"
+msgstr "Colocaciones existentes"
+
+#: admin/views/ad-info-top.php:53
+#, php-format
+msgid "Or use the shortcode %s to insert the ad into the content manually."
+msgstr ""
+"O utiliza el shortcode %s para insertar el anuncio en el contenido "
+"manualmente."
+
+#: admin/views/ad-info-top.php:54
+#, php-format
+msgid ""
+"Learn more about your choices to display an ad in the <a href=\"%s\" "
+"target=\"_blank\">manual</a>."
+msgstr ""
+"Aprender más acerca de tus opciones para mostrar un anuncio en el <a "
+"href=\"%s\" target=\"_blank\">manual</a>."
+
+#: admin/views/ad-info-top.php:64
+msgid "Start Wizard"
+msgstr "Iniciar Asistente"
+
+#: admin/views/ad-info-top.php:65
+msgid "Stop Wizard"
+msgstr "Detener Asistente"
+
+#: admin/views/ad-info-top.php:83
+msgid "Welcome to the Wizard"
+msgstr "Bienvenido al Asistente"
+
+#: admin/views/ad-info-top.php:84
+msgid ""
+"The Wizard helps you to quickly create and publish an ad. Therefore, only "
+"the most common options are visible."
+msgstr ""
+"El Asistente te ayudará a crear y publicar un anuncio fácilmente. Por lo "
+"tanto, solamente las opciones más comunes serán visibles."
+
+#: admin/views/ad-info.php:2
+#, php-format
+msgid "Ad Id: %s"
+msgstr "ID del Anuncio: %s"
+
+#: admin/views/ad-info.php:5
+msgid "theme function"
+msgstr "Función para el Tema:"
+
+#: admin/views/ad-info.php:7
+#, php-format
+msgid ""
+"Find more display options in the <a href=\"%s\" target=\"_blank\">manual</a>."
+msgstr ""
+"Encuentra más opciones de visualización en el <a href=\"%s\" "
+"target=\"_blank\">manual</a>."
+
+#: admin/views/ad-info.php:11
+msgid "click to change"
+msgstr "Clic para cambiar"
+
+#: admin/views/ad-info.php:15
+msgid "Add a description"
+msgstr "Añadir una Descripción"
+
+#: admin/views/ad-info.php:18
+msgid "Internal description or your own notes about this ad."
+msgstr "Descripción interna, o tus propias notas, acerca de este anuncio."
+
+#: admin/views/ad-list-filters.php:2
+msgid "all ad types"
+msgstr "Todos los tipos de anuncios"
+
+#: admin/views/ad-list-filters.php:5
+msgid "all ad sizes"
+msgstr "Todos los tamaños de anuncios"
+
+#: admin/views/ad-list-filters.php:8
+msgid "all ad dates"
+msgstr "Todas las fechas de anuncios"
+
+#: admin/views/ad-list-filters.php:16
+msgid "all ad groups"
+msgstr "Todos los Grupos de Anuncios"
+
+#: admin/views/ad-list-no-ads.php:2
+msgid "Not many ads here yet. Get help from the following resources:"
+msgstr ""
+"No hay muchos anuncios aquí todavía. Obtén ayuda de las siguientes fuentes:"
+
+#: admin/views/ad-list-no-ads.php:3
+msgid "Watch the “First Ad” Tutorial (Video)"
+msgstr "Mira el tutorial \"Primer Anuncio\" (Vídeo)"
+
+#: admin/views/ad-list-no-ads.php:4
+msgid "Import Ads (Link)"
+msgstr "Importar anuncios (enlace)"
+
+#: admin/views/ad-list-no-ads.php:5
+msgid "Get dummy ad content (Link)"
+msgstr "Obtener contenido de prueba para el anuncio (enlace)"
+
+#: admin/views/ad-main-metabox.php:3
+msgid "No ad types defined"
+msgstr "No hay tipos de anuncios definidos"
+
+#: admin/views/ad-output-metabox.php:1
+msgid "Everything connected to the ads layout and output."
+msgstr "Todo lo relacionado con el diseño y la visualización de los anuncios."
+
+#: admin/views/ad-output-metabox.php:4
+#: admin/views/placements-ad-label-position.php:1
+msgid "Position"
+msgstr "Posición:"
+
+#: admin/views/ad-output-metabox.php:6
+msgid "- default -"
+msgstr "- Defecto -"
+
+#: admin/views/ad-output-metabox.php:7
+#: admin/views/placements-ad-label-position.php:2
+#: admin/views/placements-ad-label-position.php:4
+#: admin/views/placements-ad-label.php:1 admin/views/placements-ad-label.php:3
+#: admin/views/placements.php:53
+msgid "default"
+msgstr "Defecto"
+
+#: admin/views/ad-output-metabox.php:8
+#: admin/views/placements-ad-label-position.php:6
+#: admin/views/placements-ad-label-position.php:8
+msgid "left"
+msgstr "Izquierda"
+
+#: admin/views/ad-output-metabox.php:11
+#: admin/views/placements-ad-label-position.php:9
+#: admin/views/placements-ad-label-position.php:11
+msgid "center"
+msgstr "Centro"
+
+#: admin/views/ad-output-metabox.php:14
+#: admin/views/placements-ad-label-position.php:12
+#: admin/views/placements-ad-label-position.php:14
+msgid "right"
+msgstr "Derecha"
+
+#: admin/views/ad-output-metabox.php:18
+msgid ""
+"Check this if you don't want the following elements to float around the ad. "
+"(adds a clearfix)"
+msgstr ""
+"Chequea esto si no quieres que los elementos sub-siguientes floten alrededor "
+"del anuncio. (Añade un arreglo de espacio - clearfix)"
+
+#: admin/views/ad-output-metabox.php:22
+msgid "Margin"
+msgstr "Margen:"
+
+#: admin/views/ad-output-metabox.php:24
+msgid "top:"
+msgstr "Superior:"
+
+#: admin/views/ad-output-metabox.php:26
+msgid "right:"
+msgstr "Derecho:"
+
+#: admin/views/ad-output-metabox.php:28
+msgid "bottom:"
+msgstr "Inferior:"
+
+#: admin/views/ad-output-metabox.php:30
+msgid "left:"
+msgstr "Izquierdo:"
+
+#: admin/views/ad-output-metabox.php:32
+msgid "tip: use this to add a margin around the ad"
+msgstr "Tip: usa esto para añadir un margen alrededor del anuncio"
+
+#: admin/views/ad-output-metabox.php:35
+msgid "container ID"
+msgstr "ID del Contenedor"
+
+#: admin/views/ad-output-metabox.php:38
+msgid "Specify the id of the ad container. Leave blank for random or no id."
+msgstr ""
+"Especificar el ID para el contenedor del anuncio. Dejar en blanco para un "
+"valor aleatorio o para no tener un ID"
+
+#: admin/views/ad-output-metabox.php:41
+msgid "container classes"
+msgstr "Clases para el Contenedor"
+
+#: admin/views/ad-output-metabox.php:47
+msgid "Enable debug mode"
+msgstr "Habilitar modo de depuración"
+
+#: admin/views/ad-parameters-size.php:1
+msgid "size"
+msgstr "Tamaño"
+
+#: admin/views/ad-parameters-size.php:3
+msgid "width"
+msgstr "Ancho"
+
+#: admin/views/ad-parameters-size.php:4
+msgid "height"
+msgstr "Alto"
+
+#: admin/views/ad-parameters-size.php:8
+msgid "reserve this space"
+msgstr "Reservar este espacio"
+
+#: admin/views/ad-submitbox-meta.php:6
+msgid "Set expiry date"
+msgstr "Establecer la fecha de expiración"
+
+#: admin/views/ad-submitbox-meta.php:16
+#, php-format
+msgctxt "1: month number (01, 02, etc.), 2: month abbreviation"
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: admin/views/ad-submitbox-meta.php:29
+#, php-format
+msgctxt ""
+"order of expiry date fields 1: month, 2: day, 3: year, 4: hour, 5: minute"
+msgid "%1$s %2$s, %3$s @ %4$s %5$s"
+msgstr "%1$s %2$s, %3$s @ %4$s %5$s"
+
+#: admin/views/ad-visitor-metabox.php:12
+msgid ""
+"Display conditions that are based on the user. Use with caution on cached "
+"websites."
+msgstr ""
+"Mostrar condiciones que están basadas en el usuario. Usar con cautela en "
+"websites cacheados."
+
+#: admin/views/ad-visitor-metabox.php:47
+msgid ""
+"Visitor conditions limit the number of users who can see your ad. There is "
+"no need to set visitor conditions if you want all users to see the ad."
+msgstr ""
+"Las condiciones del visitante limitan el número de usuarios que pueden ver "
+"tu anuncio. No hay necesidad de establecer condiciones del visitante si "
+"deseas que todos los usuarios vean el anuncio."
+
+#: admin/views/ad-visitor-metabox.php:50
+#, php-format
+msgid ""
+"Check out cache-busting in <a href=\"%s\" target=\"_blank\">Advanced Ads "
+"Pro</a> if dynamic features get cached."
+msgstr ""
+"Revisa el almacenamiento-en-caché en <a href=\"%s\" target=\"_blank\">"
+"Advanced Ads Pro</a> si las funcionalidades dinámicas son cacheadas."
+
+#: admin/views/ad-visitor-metabox.php:67
+#, php-format
+msgid ""
+"Define the exact browser width for which an ad should be visible using the "
+"<a href=\"%s\" target=\"_blank\">Responsive add-on</a>."
+msgstr ""
+"Definir el ancho exacto del navegador para los que un anuncio debe ser "
+"visible usando el <a href=\"%s\" target=\"_blank\">Add-on responsable</a>."
+
+#: admin/views/ad-visitor-metabox.php:113
+msgid ""
+"The visitor conditions below are deprecated. Please use the new version of "
+"visitor conditions to replace it."
+msgstr ""
+"Las condiciones del visitante de abajo están depreciadas. Por favor, utiliza "
+"la nueva versión de las condiciones del visitante para reemplazarlas."
+
+#: admin/views/ad-visitor-metabox.php:119
+msgid "Display on all devices"
+msgstr "Mostrar en todos los dispositivos"
+
+#: admin/views/ad-visitor-metabox.php:123
+msgid "only on mobile devices"
+msgstr "Solamente en dispositivos móviles"
+
+#: admin/views/ad-visitor-metabox.php:127
+msgid "not on mobile devices"
+msgstr "No en dispositivos móviles"
+
+#: admin/views/feedback-disable.php:4
+msgid "Why did you decide to disable Advanced Ads?"
+msgstr "Porqué decidiste deshabilitar Advanced Ads?"
+
+#: admin/views/feedback-disable.php:19
+msgid "other reason"
+msgstr "Otra razón"
+
+#: admin/views/placements-content-index.php:1
+msgid "after"
+msgstr "Después"
+
+#: admin/views/placements-content-index.php:1
+msgid "before"
+msgstr "Antes"
+
+#: admin/views/placements-content-index.php:21
+msgid "start counting from bottom"
+msgstr "Empezar contando desde el final"
+
+#: admin/views/placements-item.php:2 admin/views/placements.php:185
+msgid "--not selected--"
+msgstr "--No Seleccionado--"
+
+#: admin/views/placements.php:8
+msgid ""
+"Couldn’t create the new placement. Please check your form field and whether "
+"the name is already in use."
+msgstr ""
+"No se pudo crear la nueva colocación. Por favor, revisa el campo del "
+"formulario y si el nombre ya está en uso."
+
+#: admin/views/placements.php:10
+msgid "Placements updated"
+msgstr "Colocaciones Actualizadas"
+
+#: admin/views/placements.php:14
+msgid ""
+"Placements are physically places in your theme and posts. You can use them "
+"if you plan to change ads and ad groups on the same place without the need "
+"to change your templates."
+msgstr ""
+"Las Colocaciones son lugares físicos dentro de tu tema y tus entradas. "
+"Puedes utilizarlas si planeas cambiar anuncios o Grupos de Anuncios en el "
+"mismo lugar y sin la necesidad de cambiar tus plantillas (templates)."
+
+#: admin/views/placements.php:15
+#, php-format
+msgid ""
+"See also the manual for more information on <a href=\"%s\">placements</a>."
+msgstr ""
+"Consulta también el manual para más información sobre <a href=\"%s\">Las "
+"Colocaciones</a>. "
+
+#: admin/views/placements.php:25 modules/import-export/views/page.php:26
+msgid "Options"
+msgstr "Opciones"
+
+#: admin/views/placements.php:43
+#, php-format
+msgid ""
+"Placement type \"%s\" is missing and was reset to \"default\".<br/>Please "
+"check if the responsible add-on is activated."
+msgstr ""
+"El tipo de colocación \"%s\" no se encuentra y fue reiniciado a su \"valor "
+"por defecto\". <br/> Por favor, chequea si el add-on que es responsable de "
+"este funcionamiento está activado."
+
+#: admin/views/placements.php:59
+msgid "show usage"
+msgstr "Mostrar uso"
+
+#: admin/views/placements.php:83
+msgid "Item"
+msgstr "Item"
+
+#: admin/views/placements.php:98
+msgid "Important Notice"
+msgstr "Notificación Importante"
+
+#: admin/views/placements.php:98
+msgid ""
+"Your server is missing an extension. This might break the content injection."
+"<br/>Ignore this warning if everything works fine or else ask your hosting "
+"provider to enable <em>mbstring</em>."
+msgstr ""
+"A tu servidor le hace falta una extensión. Esto puede romper la inyección de "
+"contenido.<br/> Ignora esta advertencia si todo está funcionando bien. De lo "
+"contrario, pídele a tu compañía de hospedaje habilitar <em>mbstring</em>."
+
+#: admin/views/placements.php:142
+msgctxt "checkbox to remove placement"
+msgid "delete"
+msgstr "Eliminar"
+
+#: admin/views/placements.php:148
+msgid "Save Placements"
+msgstr "Guardar Colocaciones"
+
+#: admin/views/placements.php:150
+msgid "Create a new placement"
+msgstr "Crear una Nueva Colocación"
+
+#: admin/views/placements.php:151
+msgid "New Placement"
+msgstr "Nueva Colocación"
+
+#: admin/views/placements.php:158
+msgid "Choose a placement type"
+msgstr "Selecciona un tipo de colocación"
+
+#: admin/views/placements.php:159
+#, php-format
+msgid ""
+"Placement types define where the ad is going to be displayed. Learn more "
+"about the different types from the <a href=\"%s\">manual</a>"
+msgstr ""
+"Los tipos de colocaciones definen en donde se debe mostrar el anuncio. "
+"Aprende más sobre los diferentes tipos en el <a href=\"%s\">manual</a>."
+
+#: admin/views/placements.php:176
+msgid "Please select a placement type."
+msgstr "Por favor, selecciona un tipo de colocación."
+
+#: admin/views/placements.php:178
+msgid "Choose a Name"
+msgstr "Selecciona un Nombre"
+
+#: admin/views/placements.php:179
+msgid ""
+"The name of the placement is only visible to you. Tip: choose a descriptive "
+"one, e.g. <em>Below Post Headline</em>."
+msgstr ""
+"El nombre de la colocación es solamente visible para ti. Tip: selecciona un "
+"nombre descriptivo, ej: <em>Debajo del Encabezado de la Entrada</em>."
+
+#: admin/views/placements.php:180
+msgid "Placement Name"
+msgstr "Nombre de la Colocación"
+
+#: admin/views/placements.php:181
+msgid "Please enter a name for your placement."
+msgstr "Por favor, ingresa un nombre para tu colocación."
+
+#: admin/views/placements.php:182
+msgid "Choose the Ad or Group"
+msgstr "Selecciona el Anuncio o Grupo"
+
+#: admin/views/placements.php:183
+msgid "The ad or group that should be displayed."
+msgstr "El anuncio o grupo que debe ser mostrado."
+
+#: admin/views/placements.php:202
+msgid "Save New Placement"
+msgstr "Guardar la Nueva Colocación"
+
+#: admin/views/post-ad-settings-metabox.php:3
+msgid "Disable ads on this page"
+msgstr "Deshabilitar anuncios en esta página"
+
+#: admin/views/setting-license.php:5
+msgid "Your license expired."
+msgstr "Tu licencia expiró."
+
+#: admin/views/setting-license.php:27
+#, php-format
+msgid "(%d days left)"
+msgstr "(%d días restantes)"
+
+#: admin/views/setting-license.php:31
+msgid "License key"
+msgstr "Llave de Licencia"
+
+#: admin/views/setting-license.php:51
+msgid "License key invalid"
+msgstr "Llave de licencia inválida"
+
+#: admin/views/setting-license.php:54
+msgid "active"
+msgstr "Activa"
+
+#: admin/views/settings-disable-ads.php:3
+msgid "Disable all ads in frontend"
+msgstr "Deshabilitar todos los anuncios en el frente del sitio"
+
+#: admin/views/settings-disable-ads.php:4
+msgid ""
+"Use this option to disable all ads in the frontend, but still be able to use "
+"the plugin."
+msgstr ""
+"Usar esta opción para deshabilitar todos los anuncios en el frente del sitio "
+"y todavía tener la capacidad de usar el plugin."
+
+#: admin/views/settings-disable-ads.php:8
+msgid "Disable ads on 404 error pages"
+msgstr "Deshabilitar anuncios en las páginas de error 404"
+
+#: admin/views/settings-disable-ads.php:12
+msgid "Disable ads on non-singular pages"
+msgstr "Deshabilitar anuncios en páginas no-singulares"
+
+#: admin/views/settings-disable-ads.php:13
+msgid ""
+"e.g. archive pages like categories, tags, authors, front page (if a list)"
+msgstr ""
+"Ej. Páginas de archivo como categorías, etiquetas, autores, frente de la "
+"página (si es una lista)"
+
+#: admin/views/settings-disable-ads.php:16
+msgid "Disable ads on secondary queries"
+msgstr "Deshabilitar anuncios en consultas (queries) secundarias"
+
+#: admin/views/settings-disable-ads.php:17
+msgid ""
+"Secondary queries are custom queries of posts outside the main query of a "
+"page. Try this option if you see ads injected on places where they shouldn’t "
+"appear."
+msgstr ""
+"Las consultas (queries) secundarias son consultas personalizadas de entradas "
+"fuera de la consulta principal de una página. Intenta habilitar esta opción "
+"si ves anuncios inyectados en lugares en donde no deberían aparecer."
+
+#: admin/views/settings-disable-ads.php:21
+msgid "Disable ads in Feed"
+msgstr "Deshabilitar anuncios en el Feed"
+
+#: admin/views/settings.php:35
+msgid "Save settings on this page"
+msgstr "Guardar las configuraciones de esta página"
+
+#: admin/views/settings.php:49 modules/import-export/main.php:15
+#: modules/import-export/main.php:15
+msgid "Import &amp; Export"
+msgstr "Importar &amp; Exportar"
+
+#: admin/views/settings.php:50
+msgid "Advanced Ads on WordPress.org"
+msgstr "Advanced Ads en WordPress.org"
+
+#: admin/views/settings.php:50
+msgid "Advanced Ads on wp.org"
+msgstr "Advanced Ads en wp.org"
+
+#: admin/views/settings.php:51
+msgid "the company behind Advanced Ads"
+msgstr "la compañía detrás de Advanced Ads"
+
+#: admin/views/support.php:7
+msgid ""
+"Please fix the red highlighted issues on this page or try to understand "
+"their consequences before contacting support."
+msgstr ""
+"Por favor, arregla los problemas resaltados en rojo en esta página o intenta "
+"entender sus consecuencias antes de contactar a soporte."
+
+#: admin/views/support.php:11
+#, php-format
+msgid ""
+"Your <strong>PHP version (%s) is too low</strong>. Advanced Ads is built for "
+"PHP 5.3 and higher. It might work, but updating PHP is highly recommended. "
+"Please ask your hosting provider for more information."
+msgstr ""
+"Tu <strong>versión de PHP (%s) es muy vieja</strong>. Advanced Ads fue "
+"diseñado para PHP 5.3 o mayor. Puede que funcione, pero actualizar PHP es "
+"altamente recomendado. Por favor, consulta con tu compañía de hospedaje para "
+"mayor información."
+
+#: admin/views/support.php:14
+#, php-format
+msgid ""
+"Your <strong>website uses cache</strong>. Some dynamic features like ad "
+"rotation or visitor conditions might not work properly. Use the cache-"
+"busting feature of <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> to "
+"load ads dynamically."
+msgstr ""
+"Tu <strong>sitio web utiliza caché</strong>. Algunas características "
+"dinámicas, como la rotación de anuncios o las condiciones del visitante, "
+"puede que no funcionen correctamente. Utiliza la característica de "
+"almacenamiento-en-caché de <a href=\"%s\" target=\"_blank\">Advanced Ads "
+"Pro</a> para cargar los anuncios dinámicamente."
+
+#: admin/views/support.php:17
+msgid ""
+"There is a <strong>new WordPress version available</strong>. Please update."
+msgstr ""
+"Hay una <strong>nueva versión de WordPress disponible</strong>. Por favor, "
+"actualízala."
+
+#: admin/views/support.php:20
+msgid "There are <strong>plugin updates available</strong>. Please update."
+msgstr ""
+"Hay <strong>actualizaciones del plugin disponibles</strong>. Por favor, "
+"actualízalo."
+
+#: admin/views/support.php:29
+#, php-format
+msgid ""
+"<strong>Autoptimize plugin detected</strong>. While this plugin is great for "
+"site performance, it is known to alter code, including scripts from ad "
+"networks. <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> has a build-"
+"in support for Autoptimize."
+msgstr ""
+"<strong>Autoptimize plugin detectado</strong>. A pesar de que este plugin es "
+"muy bueno para el rendimiento del sitio, también es bien sabido que tiende a "
+"modificar el código, incluyendo scripts de redes de anuncios. <a href=\"%s\" "
+"target=\"_blank\">Advanced Ads Pro</a> posee un soporte incorporado para "
+"Autoptimize."
+
+#: admin/views/support.php:32
+#, php-format
+msgid ""
+"Plugins that are known to cause (partial) problems: <strong>%1$s</strong>. "
+"<a href=\"%2$s\" target=\"_blank\">Learn more</a>."
+msgstr ""
+"Plugins que se conocen que causan problemas (parciales): <strong>"
+"%1$s</strong>. <a href=\"%2$s\" target=\"_blank\">Más Información</a>."
+
+#: admin/views/support.php:35
+#, php-format
+msgid ""
+"Ads are disabled for all or some pages. See \"disabled ads\" in <a "
+"href=\"%s\">settings</a>."
+msgstr ""
+"Los anuncios están deshabilitados para todas o algunas páginas. Ver "
+"\"anuncios deshabilitados\" en <a href=\"%s\">configuraciones</a>."
+
+#: admin/views/support.php:46
+msgid "Possible Issues"
+msgstr "Posibles Problemas"
+
+#: admin/views/support.php:48
+msgid "Ads not showing up"
+msgstr "Los anuncios no se están mostrando"
+
+#: admin/views/support.php:49
+msgid "Purchase & Licenses"
+msgstr "Compra & Licencias"
+
+#: admin/views/support.php:50
+msgid "General Issues"
+msgstr "Problemas Generales"
+
+#: admin/views/support.php:51
+msgid "Issues with Add-Ons"
+msgstr "Problemas con Add-Ons"
+
+#: admin/views/support.php:53
+msgid ""
+"Use the following form to search for solutions in the manual on "
+"wpadvancedads.com"
+msgstr ""
+"Usa el siguiente formulario para buscar soluciones en el manual de "
+"wpadvancedads.com"
+
+#: admin/views/support.php:56
+msgid "search"
+msgstr "Buscar"
+
+#: admin/views/support.php:58
+#, php-format
+msgid ""
+"Take a look at more common issues or contact us directly through the <a "
+"href=\"%s\" target=\"_blank\">support page</a>."
+msgstr ""
+"Échale un vistazo a los problemas más comunes o contáctanos directamente a "
+"través de la <a href=\"%s\" target=\"_blank\">Página de Soporte</a>."
+
+#: modules/gadsense/main.php:19
+msgid " at "
+msgstr "En"
+
+#: public/views/ad-debug.php:18
+msgid "Ad debug output"
+msgstr "Resultados de la depuración de anuncios"
+
+#: public/views/ad-debug.php:20
+msgid "Find solutions in the manual"
+msgstr "Encontrar soluciones en el manual"
+
+#: admin/views/notices/adblock.php:2
+msgid ""
+"Please disable your <strong>AdBlocker</strong> to prevent problems with your "
+"ad setup."
+msgstr ""
+"Por favor, deshabilita tu <strong>bloqueador de anuncios (AdBlocker)</strong>"
+" para prevenir problemas con la configuración de tu anuncio."
+
+#: modules/ad-blocker/admin/admin.php:96
+msgid "Ad blocker fix"
+msgstr "Reparación de Ad blocker"
+
+#: modules/ad-blocker/admin/admin.php:162
+msgid "The asset folder was rebuilt successfully"
+msgstr "El directorio de archivos fue reconstruido exitosamente"
+
+#: modules/ad-blocker/admin/admin.php:223
+msgid "There is no writable upload folder"
+msgstr "No hay directorio escribible de cargas y subidas "
+
+#: modules/ad-blocker/admin/admin.php:252
+#, php-format
+msgid "Unable to rename \"%s\" directory"
+msgstr "No es posible renombrar el directorio \"%s\""
+
+#: modules/ad-blocker/admin/admin.php:268
+#: modules/ad-blocker/admin/admin.php:281
+#: modules/ad-blocker/admin/admin.php:298
+#, php-format
+msgid "Unable to copy assets to the \"%s\" directory"
+msgstr "No es posible copiar los archivos al directorio \"%s\""
+
+#: modules/ad-blocker/admin/admin.php:331
+#: modules/ad-blocker/admin/admin.php:351
+#, php-format
+msgid "We do not have direct write access to the \"%s\" directory"
+msgstr "No tenemos acceso directo de escritura al directorio \"%s\" "
+
+#: modules/ad-blocker/admin/admin.php:417
+#, php-format
+msgid ""
+"Unable to create \"%s\" directory. Is its parent directory writable by the "
+"server?"
+msgstr ""
+"No es posible crear el directorio \"%s\". Es el directorio principal "
+"escribible en el servidor?"
+
+#: modules/ad-blocker/admin/admin.php:428
+#, php-format
+msgid "Unable to copy files to %s"
+msgstr "No es posible copiar archivos a %s"
+
+#: modules/gadsense/admin/admin.php:27
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:59
+msgid "Responsive"
+msgstr "Responsable"
+
+#: modules/gadsense/admin/admin.php:45
+msgid "The ad details couldn't be retrieved from the ad code"
+msgstr ""
+"Los detalles del anuncio no pudieron ser recuperados del código del anuncio"
+
+#: modules/gadsense/admin/admin.php:46
+msgid ""
+"Warning : The AdSense account from this code does not match the one set with "
+"the Advanced Ads Plugin. This ad might cause troubles when used in the front "
+"end."
+msgstr ""
+"Advertencia: La cuenta de AdSense de este código no es equivalente a la que "
+"se encuentra en el plugin de Advanced Ads. Este anuncio puede causar "
+"problemas cuando se use en el frente del sitio."
+
+#: modules/gadsense/admin/admin.php:124 modules/gadsense/admin/admin.php:260
+msgid "AdSense"
+msgstr "AdSense"
+
+#: modules/gadsense/admin/admin.php:132
+msgid "AdSense ID"
+msgstr "ID de AdSense "
+
+#: modules/gadsense/admin/admin.php:141
+msgid "Limit to 3 ads"
+msgstr "Limitar a 3 anuncios"
+
+#: modules/gadsense/admin/admin.php:150
+msgid "Activate Page-Level ads"
+msgstr "Activar Anuncios de Nivel-de-Página"
+
+#: modules/gadsense/admin/admin.php:170
+#, php-format
+msgid ""
+"Please enter your Publisher ID in order to use AdSense on your page. See the "
+"<a href=\"%s\" target=\"_blank\">manual</a> for more information."
+msgstr ""
+"Por favor, ingresa tu ID de publicador para usar AdSense en tu página. Ver "
+"el <a href=\"%s\" target=\"_blank\">manual</a> para mayor información."
+
+#: modules/gadsense/admin/admin.php:184
+msgid "Your AdSense Publisher ID <em>(pub-xxxxxxxxxxxxxx)</em>"
+msgstr "Tu ID de publicador de AdSense <em>(pub-xxxxxxxxxxxxxx)</em>"
+
+#: modules/gadsense/admin/admin.php:196
+#, php-format
+msgid "Limit to %d AdSense ads"
+msgstr "Limitar a %d anuncios de AdSense "
+
+#: modules/gadsense/admin/admin.php:200
+msgid ""
+"There is no explicit limit for AdSense ads anymore, but you can still use "
+"this setting to prevent too many AdSense ads to show accidentally on your "
+"site."
+msgstr ""
+"Ya no existe un límite específico para anuncios de AdSense, pero todavía "
+"puedes utilizar esta configuración para prevenir que muchos anuncios de "
+"AdSense se muestren accidentalmente en tu sitio."
+
+#: modules/gadsense/admin/admin.php:204
+msgid ""
+"Due to technical restrictions, the limit does not work on placements with "
+"cache-busting enabled."
+msgstr ""
+"Debido a restricciones técnicas, el límite no funciona en colocaciones con "
+"almacenamiento-en-caché habilitado."
+
+#: modules/gadsense/admin/admin.php:218
+msgid "Insert Page-Level ads code on all pages."
+msgstr "Insertar código de anuncios de Nivel-de-Página en todas las páginas."
+
+#: modules/gadsense/admin/admin.php:238
+#: modules/gadsense/includes/class-ad-type-adsense.php:73
+msgid "The Publisher ID has an incorrect format. (must start with \"pub-\")"
+msgstr ""
+"El ID del publicador tiene un formato incorrecto. (Debe comenzar con \"pub-"
+"\")"
+
+#: modules/gadsense/includes/class-ad-type-adsense.php:35
+msgid "AdSense ad"
+msgstr "Anuncio de AdSense"
+
+#: modules/gadsense/includes/class-ad-type-adsense.php:36
+msgid "Use ads from your Google AdSense account"
+msgstr "Usar anuncios de tu cuenta de Google AdSense"
+
+#: modules/gadsense/includes/class-ad-type-adsense.php:108
+msgid "Your AdSense Publisher ID is missing."
+msgstr "Tu ID de publicador de AdSense no se encuentra."
+
+#: modules/gadsense/includes/class-gadsense-data.php:37
+msgid "Auto"
+msgstr "Auto"
+
+#: modules/import-export/classes/import.php:64
+msgid "Please enter XML content"
+msgstr "Por favor, ingresa el contenido XML"
+
+#: modules/import-export/classes/import.php:145
+#: modules/import-export/classes/import.php:561
+#, php-format
+msgid "New attachment created <em>%s</em> %s"
+msgstr "Nuevo archivo adjunto creado <em>%s</em> %s"
+
+#: modules/import-export/classes/import.php:177
+#, php-format
+msgid "Failed to import <em>%s</em>"
+msgstr "Error al importar <em>%s</em>"
+
+#: modules/import-export/classes/import.php:185
+#, php-format
+msgid "New ad created: <em>%s</em> %s"
+msgstr "Nuevo anuncio creado: <em>%s</em> %s"
+
+#: modules/import-export/classes/import.php:228
+#, php-format
+msgid "Assigned terms: <em>%s</em>, to post: <em>%s</em>"
+msgstr "Términos asignados: <em>%s</em>, a la entrada: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:290
+#, php-format
+msgid "New group created, id: <em>%s</em>, name: <em>%s</em>"
+msgstr "Nuevo grupo creado, ID: <em>%s</em>, nombre: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:292
+#, php-format
+msgid "Failed to import taxonomy: <em>%s</em>, term: <em>%s</em>"
+msgstr "Error al importar taxonomía: <em>%s</em>, término: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:357
+#, php-format
+msgid "Placement <em>%s</em> created"
+msgstr "Colocación <em>%s</em> creada"
+
+#: modules/import-export/classes/import.php:472
+#, php-format
+msgid "Option was updated: <em>%s</em>"
+msgstr "La opción fue actualizada: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:475
+#, php-format
+msgid "Option already exists: <em>%s</em>"
+msgstr "La opción ya existe: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:497
+#, php-format
+msgid "Failed to create import directory <em>%s</em>"
+msgstr "Error al crear directorio de importación <em>%s</em>"
+
+#: modules/import-export/classes/import.php:502
+#, php-format
+msgid "Import directory is not writable: <em>%s</em>"
+msgstr ""
+"El directorio de importación no tiene permisos de escritura: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:510
+msgid ""
+"File is empty, uploads are disabled or post_max_size is smaller than "
+"upload_max_filesize in php.ini"
+msgstr ""
+"El archivo está vacío, las subidas están deshabitadas o el post_max_size es "
+"más pequeño que el upload_max_filesize en php.ini"
+
+#: modules/import-export/classes/import.php:520
+#, php-format
+msgid "Failed to upload file, error: <em>%s</em>"
+msgstr "Error al subir el archivo: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:525
+msgid "File is empty."
+msgstr "El archivo está vacío."
+
+#: modules/import-export/classes/import.php:530
+#, php-format
+msgid ""
+"The file could not be created: <em>%s</em>. This is probably a permissions "
+"problem"
+msgstr ""
+"El archivo no se pudo crear: <em>%s</em>. Probablemente, esto es debido a un "
+"problema de permisos  "
+
+#: modules/import-export/classes/import.php:603
+#, php-format
+msgid "Invalid filetype <em>%s</em>"
+msgstr "Tipo de archivo inválido <em>%s</em>"
+
+#: modules/import-export/classes/import.php:608
+#: modules/import-export/classes/import.php:615
+#: modules/import-export/classes/import.php:623
+#: modules/import-export/classes/import.php:638
+#, php-format
+msgid "Error getting remote image <em>%s</em>"
+msgstr "Error obteniendo la imagen remota <em>%s</em>"
+
+#: modules/import-export/classes/import.php:632
+#, php-format
+msgid "Zero size file downloaded <em>%s</em>"
+msgstr "Tamaño de archivo descargado cero <em>%s</em>"
+
+#: modules/import-export/classes/XmlEncoder.php:75
+msgctxt "import_export"
+msgid "The data must be an array"
+msgstr "La información debe ser un arreglo"
+
+#: modules/import-export/classes/XmlEncoder.php:103
+#, php-format
+msgctxt "import_export"
+msgid "The key %s is not valid"
+msgstr "La clave %s no es válida"
+
+#: modules/import-export/classes/XmlEncoder.php:149
+#, php-format
+msgctxt "import_export"
+msgid "An unexpected value could not be serialized: %s"
+msgstr "Un valor inesperado no pudo ser serializado: %s"
+
+#: modules/import-export/classes/XmlEncoder.php:201
+msgctxt "import_export"
+msgid "Invalid XML data, it can not be empty"
+msgstr "Información XML inválida, no puede ser vaciada"
+
+#: modules/import-export/classes/XmlEncoder.php:223
+#, php-format
+msgctxt "import_export"
+msgid "XML error: %s"
+msgstr "Error XML: %s"
+
+#: modules/import-export/views/page.php:16
+msgid "Export"
+msgstr "Exportar"
+
+#: modules/import-export/views/page.php:17
+msgid ""
+"When you click the button below Advanced Ads will create an XML file for you "
+"to save to your computer."
+msgstr ""
+"Cuando le des clic al botón de abajo, Advanced Ads creará un archivo XML "
+"para que lo puedas guardar en tu computadora."
+
+#: modules/import-export/views/page.php:33
+msgid "Import"
+msgstr "Importar"
+
+#: modules/import-export/views/page.php:44
+msgid "Choose an XML file"
+msgstr "Elegir un archivo XML"
+
+#: modules/import-export/views/page.php:45
+msgid "Copy an XML content"
+msgstr "Copiar un contenido XML"
+
+#: modules/import-export/views/page.php:66
+msgid "Start import"
+msgstr "Comenzar la importación"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:1
+msgid "Ad blocker file folder"
+msgstr "Directorio de archivos de Ad blocker"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:10
+msgid "Upload folder is not writable"
+msgstr "El directorio de cargas y subidas no es escribible"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:23
+msgid "Asset path"
+msgstr "Ruta de Archivos"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:27
+msgid "Asset URL"
+msgstr "URL de Archivos"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:31
+msgid "Rename assets"
+msgstr "Renombrar archivos"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:34
+msgid "Check if you want to change the names of the assets"
+msgstr "Selecciona si deseas cambiar el nombre de los archivos"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:43
+#, php-format
+msgid ""
+"Please, rebuild the asset folder. All assets will be located in <strong>"
+"%s</strong>"
+msgstr ""
+"Por favor, reconstruye el folder de archivos. Todos los archivos estarán "
+"localizados en <strong>%s</strong>"
+
+#: modules/ad-blocker/admin/views/rebuild_form.php:46
+msgid "Rebuild asset folder"
+msgstr "Reconstruir directorio de archivos"
+
+#: modules/ad-blocker/admin/views/setting-use-adblocker.php:6
+msgid ""
+"Prevents ad block software from breaking your website when blocking asset "
+"files (.js, .css)."
+msgstr ""
+"Previene que el software de Ad block rompa tu sitio cuando bloquee archivos "
+"(.js, .css)."
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:26
+msgid "Get details"
+msgstr "Obtener Detalles"
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:35
+msgid "Ad Slot ID"
+msgstr "ID de la Casilla del Anuncio"
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:40
+#, php-format
+msgid "Publisher ID: %s"
+msgstr "ID del Publicador: %s"
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:52
+#, php-format
+msgid "Please <a href=\"%s\" target=\"_blank\">change it here</a>."
+msgstr "Por favor, <a href=\"%s\" target=\"_blank\">cámbialo aquí</a>."
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:58
+msgid "Normal"
+msgstr "Normal"
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:70
+#, php-format
+msgid ""
+"Use the <a href=\"%s\" target=\"_blank\">Responsive add-on</a> in order to "
+"define the exact size for each browser width or choose between horizontal, "
+"vertical, or rectangle formats."
+msgstr ""
+"Utiliza el <a href=\"%s\" target=\"_blank\">Add-On Responsable</a> para "
+"definir el tamaño exacto según el ancho del navegador o elige entre los "
+"formatos horizontales, verticales, o rectangulares."
+
+#: modules/gadsense/admin/views/adsense-ad-parameters.php:73
+msgid "Resizing"
+msgstr "Cambiar el Tamaño"
+
+#. Name of the plugin
+msgid "Advanced Ads"
+msgstr "Advanced Ads"
+
+#. Description of the plugin
+msgid "Manage and optimize your ads in WordPress"
+msgstr "Gestiona y optimiza tus anuncios en Wordpress"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr "Thomas Maier"
+
+#. Author URI of the plugin
+msgid "http://webgilde.com"
+msgstr "http://webgilde.com"

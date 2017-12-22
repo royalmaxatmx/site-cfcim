@@ -1,0 +1,47 @@
+
+body.log-body.dark,
+body.log-body.dark .buwd_log {
+    background-color: #232525;
+    color: white;
+}
+
+body.log-body,
+body.log-body .buwd_log {
+    background-color: white;
+    color: black;
+}
+
+.buwd_log {
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.buwd_log .logline.error,
+.buwd-progress-log .logline.error {
+    color: #d9534f !important;
+}
+
+.buwd_log .logline.summary_error,
+.buwd-progress-log .logline.summary_error {
+    background-color: #d9534f !important;
+    color: #fff !important
+}
+
+.buwd_log .logline.warning,
+.buwd-progress-log .logline.warning {
+
+    color: #f0ad4e !important
+}
+
+.buwd_log .logline.summary_warning,
+.buwd-progress-log .logline.summary_warning {
+
+    background-color: #f0ad4e !important;
+    color: #fff !important
+}
+
+.buwd_log .logline.info,
+.buwd-progress-log .logline.info {
+    color: #0275d8 !important
+}

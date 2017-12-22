@@ -1,0 +1,187 @@
+.buwd *{
+  color: #305075;
+}
+
+.buwd h1 {
+  color: #305075;
+  font-size: 24px;
+}
+
+.buwd h1 a {
+  background: #305075 !important;
+  padding: 1px 30px !important;
+  font-weight: 400 !important;
+  text-decoration: none;
+  text-shadow: none;
+  border: none !important;
+  margin-left: 4px;
+}
+
+.search-box {
+  margin: 0 0 5px !important;
+  color: #305075 !important;
+}
+
+.search-box input[type="search"] {
+  border: 1px solid #E1E5EB !important;
+  width: 200px;
+  margin: 0 !important;
+  color: #305075 !important;
+}
+
+.search-box:hover .icon-search,
+.search-box input[type="search"]:focus + .icon-search,
+.search-box input[type="search"]:active + .icon-search {
+  display: none;
+}
+
+.search-box .icon-search {
+  position: absolute;
+  right: 25px;
+  background: url(../images/search_icon.png) no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.search-box input[type="submit"] {
+  display: none;
+}
+
+.tablenav {
+  margin: 10px 0 !important;
+}
+
+.tablenav .actions.bulkactions {
+  overflow: hidden;
+  padding: 0px !important;
+}
+
+.tablenav .actions {
+  overflow: hidden;
+  padding: 2px 8px 0 0 !important;
+}
+
+.tablenav .tablenav-pages {
+  color: #305075 !important;
+}
+
+.tablenav-pages-navspan {
+  height: 16px;
+  border-color: #E1E5EB;
+  background: #fff !important;
+  color: #708DB0 !important;
+}
+
+.tablenav .tablenav-pages a,
+.tablenav-pages-navspan {
+  display: inline-block;
+  min-width: 17px;
+  border: 1px solid #E1E5EB;
+  padding: 3px 5px 7px;
+  background: #fff !important;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+  color: #708DB0 !important;
+}
+
+.tablenav-pages a:focus,
+.tablenav-pages a:hover {
+  border-color: #6287ae;
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+}
+
+.tablenav-pages input[type="number"]{
+  color: #305075 !important;
+  border: 1px solid #E1E5EB;
+  margin: 0 0 0 8px;
+  width: 55px;
+}
+
+.tablenav select {
+  border: 1px solid #E1E5EB !important;
+  padding: 4px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  color: #305075 !important;
+}
+
+.wp-list-table thead tr,
+.wp-list-table tfoot tr {
+  background: #F6F7F8;
+}
+
+.wp-list-table thead tr th,
+.wp-list-table tfoot th {
+  padding: 5px 0 !important;
+}
+
+.wp-list-table th a {
+  color: #122a46 !important;
+  font-size: 15px;
+}
+
+.wp-list-table td {
+  color: #4b5c73 !important;
+  font-size: 14px;
+}
+
+.wp-list-table input[type="checkbox"],
+.wp-list-table input[type="radio"] {
+  background: #fff;
+  border: 1px solid #7093b9;
+}
+
+.wp-list-table input[type=checkbox]:checked:before {
+  color: #7093b9;
+}
+
+.wp-list-table .row-actions a {
+  color: #6287AE !important;
+}
+
+.wp-list-table .row-actions .delete a {
+  color: #bd0303 !important;
+}
+
+.wp-list-table .column-id {
+  width: 6%;
+}
+
+.wp-list-table .column-time {
+  width: 10%;
+}
+
+.wp-list-table .column-size {
+  width: 10%;
+}
+
+.buwd .bulkactions input[type="submit"]:hover,
+.buwd-button:hover {
+  background: #6287AE !important;
+}
+
+.buwd-button.reset-button {
+  background: #e5e5e5 !important;
+  color: #6287ae !important;
+}
+
+.buwd-button.reset-button:hover {
+  background: #e5e5e5 !important;
+  color: #6287ae !important;
+}
+
+#buwd_form th.sortable a, #buwd_form  th.sorted a {
+  display: block;
+  overflow: hidden;
+}
+
+#buwd_form .wp-list-table thead tr th, #buwd_form .wp-list-table tfoot th {
+  padding: 5px 8px !important;
+}
+
+
